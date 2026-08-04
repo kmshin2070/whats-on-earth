@@ -31,6 +31,6 @@ Ship a working Next.js MVP that displays daily Macro / Markets / Business econom
 7. Apply the WSJ-style design system (typography, white/black palette, newspaper grid) across the pages built so far.
 8. Verify responsive behavior on desktop and mobile breakpoints.
 9. Add a build-time data validation check (e.g. zod schema over the data module) that fails the build if: any category has fewer than 3 issues, any issue has 0 or more than 3 displayed sources, any issue is missing a `crossCheck` entry, or any outlet isn't in the approved list (validator #3).
-10. Populate real data: curate today's issues against PRD §5-1's include/exclude criteria, cross-verify each against an independent source (fill `crossCheck`), and write summaries as neutral digests of what the cited sources reported — minimum 3 issues per category (validator #2, #8).
+10. **Still open**: populate real data — curate today's issues against PRD §5-1's include/exclude criteria, cross-verify each against an independent source (fill `crossCheck`), and write summaries as neutral digests of what the cited sources reported — minimum 3 issues per category (validator #2, #8). The 9 issues currently in `src/data/issues.ts` are realistic-sounding placeholder content, not verified news — replacing them is the one remaining PLAN item before this counts as a real daily feed.
 11. Wire `.env`-based configuration for any external source/LLM call, only if one is introduced for issue sourcing.
-12. Set up Vercel deployment (Vercel CLI, auth via `.env`'s `VERCEL_TOKEN`) and confirm a live build.
+12. ✅ Done — deployed to Vercel (`whats-on-earth` project, GitHub repo `kmshin2070/whats-on-earth` pushed and public, production env vars set, live build confirmed at https://whats-on-earth.vercel.app).
