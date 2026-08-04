@@ -37,3 +37,6 @@ supabase/.temp/
 # design reference screenshots (other outlets' actual pages) — repo is
 # public, keep these local-only rather than redistributing them
 capture*.jpg
+
+.vercel
+.env*
