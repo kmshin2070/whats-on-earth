@@ -1,0 +1,39 @@
+# secrets — never commit
+.env
+.env*.local
+
+# dependencies
+node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# local tool state — not app source
+.bkit/
+.claude/
+supabase/.temp/
+
+# design reference screenshots (other outlets' actual pages) — repo is
+# public, keep these local-only rather than redistributing them
+capture*.jpg
