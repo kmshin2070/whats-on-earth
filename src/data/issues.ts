@@ -1,7 +1,9 @@
-// Plan Ref: PLAN.md step 4 — mock data for building the screens.
-// Plan Ref: PLAN.md step 10 replaces this with real, cross-verified issues.
-// Content Ref: user-provided `sample` file — 3-part structure (summary,
-// multi-paragraph detail, keywords), article-length detail section.
+// Plan Ref: PLAN.md step 10 — real, cross-verified issues (replaces the
+// earlier placeholder mock data). Researched via WebSearch against the PRD's
+// approved-outlet list; every issue below is cross-verified across at least
+// two independent outlets before inclusion, per PRD §5-1/§5-2. `date` is the
+// publish date on this site (today); each item is a real, recent (2026)
+// event — the underlying event date is noted in the summary/detail text.
 import type { Issue } from "@/types/issue";
 import { validateIssues } from "@/lib/validate-issues";
 
@@ -9,333 +11,443 @@ const TODAY = "2026-08-04";
 
 export const issues: Issue[] = [
   {
-    slug: "central-banks-signal-diverging-rate-paths",
+    slug: "imf-keeps-2026-global-growth-forecast-ai-offsets-war",
     category: "Macro",
     featured: true,
-    title: "Central banks signal diverging rate paths into year-end",
+    title: "IMF holds 2026 global growth forecast at 3%, says AI boom offsets Iran war shock",
     summary:
-      "Major central banks are increasingly diverging on the pace of interest rate cuts as year-end approaches. Policymakers have cited differing inflation trajectories, labor-market conditions, and currency pressures across regions as reasons for the split. Some banks appear to be leaning toward holding rates steady, while others are keeping further cuts on the table if growth data weakens. The divergence marks a shift from the broadly synchronized policy stance seen earlier in the cycle, with cross-border capital flows likely to be an early indicator of the split's impact.",
+      "The IMF's July 2026 World Economic Outlook update left its global growth forecast largely unchanged at 3.0% for 2026, down from 3.5% in 2024-25, saying that a boom in artificial intelligence investment has offset much of the economic drag from the war in Iran. The fund expects growth to rebound to 3.4% in 2027. The report flagged higher inflation risk tied to the conflict's effect on energy prices. The forecast is more optimistic than the World Bank's own 2026 projection of 2.5% growth, which weighted the same Middle East-driven energy shock more heavily.",
     detail: [
-      "Financial markets are recalibrating expectations for global monetary policy as major central banks appear to be moving away from the broadly synchronized rate-cutting stance that characterized much of the past two years. Recent public remarks from policymakers in several large economies suggest that the pace and even the direction of near-term policy moves is no longer aligned, a shift that analysts say reflects genuinely different domestic conditions rather than any single global driver.",
-      "At the core of the divergence is inflation. In some economies, price pressures have eased close to policy targets, giving central banks room to consider further easing without reigniting demand-driven inflation. In others, inflation has proven stickier, driven by tight labor markets, currency depreciation, or persistent services-sector cost pressures, leaving policymakers reluctant to cut further until they see more consistent progress.",
-      "Labor-market conditions add another layer of complexity. Central banks that are seeing early signs of cooling employment growth have more latitude to prioritize supporting activity, while those facing continued wage pressure are wary that premature easing could undo progress on inflation. This has left rate-setting committees in different regions effectively responding to different parts of the same global cycle.",
-      "The split carries implications well beyond domestic policy. Diverging rate paths tend to widen interest-rate differentials between currencies, which can drive capital flows toward economies offering relatively higher yields. That, in turn, can put depreciation pressure on the currencies of economies moving toward easier policy, complicating the inflation outlook for those same central banks.",
-      "Looking ahead, investors are likely to treat each central bank's upcoming policy meeting as an independent event rather than part of a coordinated global cycle. Analysts caution that this increases the risk of volatility around individual policy announcements, since markets can no longer rely on one major central bank's decision to signal the broad direction the others will take.",
+      "The International Monetary Fund's July 2026 World Economic Outlook update kept its global growth projection close to its April estimate, forecasting 3.0% expansion for 2026, down from an average of 3.5% over 2024-25. The fund attributed the resilience largely to continued strong investment in artificial intelligence and related infrastructure, which it said has partly counterbalanced the economic fallout from the war in Iran.",
+      "The war's effect on global energy markets has been a central input to the IMF's revisions across 2026 — an earlier April update had trimmed the growth outlook and flagged higher inflation on the back of an oil-price shock tied to the conflict. The July update reiterated that risk while crediting the AI investment cycle with a larger-than-expected offsetting boost to output.",
+      "The World Bank's separate 2026 outlook is notably more cautious, projecting global growth of 2.5% and warning that emerging-market and developing economies face their weakest per-capita income growth since the pandemic. The gap between the two institutions' estimates reflects differing weight given to energy-price pass-through versus the technology-investment cycle.",
+      "Both institutions agree on the direction of the underlying pressures: the Middle East conflict raising energy costs and stoking inflation risk, and AI-related capital spending providing an offsetting source of demand, concentrated in a small number of large economies with significant technology sectors.",
+      "The IMF projects growth to rebound to 3.4% in 2027, assuming the energy shock does not deepen further and AI-related investment continues at its current pace. Fund officials cautioned the outlook remains sensitive to how the Iran conflict evolves in the coming months.",
     ],
     keywords: [
-      "Central Banks",
+      "IMF",
+      "Global Growth",
+      "World Economic Outlook",
+      "Artificial Intelligence",
+      "Iran War",
+      "Inflation",
+      "World Bank",
+    ],
+    date: TODAY,
+    sources: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-08/imf-sees-ai-surge-offset-war-oil-shock-and-keeps-growth-outlook",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/08/imf-world-economy-war-ai/1bcb83be-7acd-11f1-b194-f872dd4ec5aa_story.html",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-08/imf-sees-ai-surge-offset-war-oil-shock-and-keeps-growth-outlook",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/08/imf-world-economy-war-ai/1bcb83be-7acd-11f1-b194-f872dd4ec5aa_story.html",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/news/world/article/3359890/imf-sees-world-economy-growing-just-3-year-amid-iran-war",
+      },
+    ],
+    selectionRationale:
+      "Global-institution forecast with direct policy relevance and cross-country market impact (PRD §5-1 include criteria).",
+  },
+  {
+    slug: "fed-holds-rates-steady-three-dissent-favoring-hike",
+    category: "Macro",
+    title: "Fed holds rates steady for a seventh straight month as three officials dissent favoring a hike",
+    summary:
+      "The Federal Reserve left its benchmark rate unchanged at 3.5%-3.75% on July 29, 2026, resisting pressure from within its own ranks to raise rates to fight persistently high inflation. Three of twelve FOMC members — the presidents of the Cleveland, Dallas, and Minneapolis regional banks — dissented in favor of a quarter-point hike, the largest same-direction dissent since 2016. It was the seventh straight month the Fed held rates steady. Days later, the dissenting officials publicly warned that delaying a rate hike too long could make inflation harder to fight.",
+    detail: [
+      "The Federal Reserve held its benchmark interest rate steady at a range of 3.5% to 3.75% on July 29, 2026, resisting pressure from within its own ranks to raise rates in response to persistently elevated inflation. It marked the seventh consecutive month the central bank has left rates unchanged.",
+      "Three of the Federal Open Market Committee's twelve voting members — the presidents of the Federal Reserve Banks of Cleveland, Dallas, and Minneapolis — dissented from the decision, favoring a quarter-point increase instead. Reporting described it as the largest same-direction dissent the committee has seen since 2016.",
+      "The dissenting officials had also broken from the majority at the prior meeting in late April, under then-outgoing chair Jerome Powell. Their persistence into the current meeting, held under new Fed Chair Kevin Warsh, signaled a deepening internal debate over whether inflation risk — compounded by energy costs tied to the Iran war — now outweighs the case for holding steady.",
+      "Two days after the decision, the three dissenting officials issued public remarks warning that delaying a rate increase for too long could make inflation significantly harder to bring under control later. Their comments added to market unease already stirred by the split vote.",
+      "The decision came against a backdrop of rising bond yields and volatile equity markets, with commentary in the following days noting that elevated Treasury yields were seen as an early credibility test for Warsh, who took over as Fed chair in May 2026 on the strength of a dovish reputation.",
+      "Economists remained divided on the Fed's likely next move: some continued to expect a rate cut later in 2026, while Fed Governor Christopher Waller said publicly that the central bank's next move was just as likely to be a hike as a cut, citing energy-driven price pressure from the Iran war.",
+    ],
+    keywords: [
+      "Federal Reserve",
       "Interest Rates",
+      "FOMC",
       "Monetary Policy",
       "Inflation",
-      "Rate Cuts",
-      "Currency Markets",
-      "Global Economy",
+      "Kevin Warsh",
+      "Bond Market",
     ],
     date: TODAY,
     sources: [
-      { outlet: "Reuters", url: "https://www.reuters.com/markets/rates/" },
-      { outlet: "Financial Times", url: "https://www.ft.com/central-banks" },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/29/fed-holds-interest-rates-steady-warsh-second-meeting/",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/economy/fed-holds-rates-steady-as-3-policymakers-dissent-in-favor-of-hike",
+      },
     ],
     crossCheck: [
-      { outlet: "Reuters", url: "https://www.reuters.com/markets/rates/" },
-      { outlet: "Financial Times", url: "https://www.ft.com/central-banks" },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/29/fed-holds-interest-rates-steady-warsh-second-meeting/",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/economy/fed-holds-rates-steady-as-3-policymakers-dissent-in-favor-of-hike",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/news/world/united-states-canada/article/3362310/us-federal-reserve-holds-interest-rates-steady-despite-warshs-inflation-vow",
+      },
     ],
     selectionRationale:
-      "Policy relevance and cross-country market impact (PRD §5-1 include criteria).",
+      "Major central bank policy decision with global market and currency implications (PRD §5-1 include criteria).",
   },
   {
-    slug: "trade-tension-resurfaces-over-tariff-proposals",
+    slug: "us-new-tariffs-dozens-economies-stopgap-duties-expire",
     category: "Macro",
-    title: "Trade tension resurfaces over new tariff proposals",
+    title: "US moves to impose fresh tariffs on dozens of economies as stopgap duties expire",
     summary:
-      "Officials from several major economies have reopened discussions over new tariff measures targeting specific industrial sectors. The proposals remain in an early, consultative stage, though industry groups have already begun lobbying against specific provisions. Analysts say the immediate market impact has been limited, but prolonged uncertainty tends to weigh on capital-expenditure decisions for firms with cross-border supply chains. Final terms remain unsettled, with further negotiation rounds expected before any measures take effect.",
+      "The Trump administration is set to impose new tariffs on goods from dozens of trading partners in late July 2026, aiming to keep its tariff regime intact as temporary 10% global duties lapse. The move follows an earlier round of at least 10-12.5% duties on 60 countries over forced-labor sourcing standards, with the U.S. Trade Representative saying enforcement could eventually cover economies representing about 99% of U.S. imports. China and other major trading partners are bracing for the new measures. Separately, a coalition of U.S. states is suing over the administration's legal basis for the tariffs.",
     detail: [
-      "Trade policy is back in focus after officials from several major economies confirmed that discussions over new tariff measures targeting specific industrial sectors have resumed. The talks follow a period of relative calm on the trade front and come as governments weigh competing priorities around domestic industry protection, supply-chain resilience, and consumer price stability.",
-      "The proposals under discussion are reportedly narrow in scope, focused on a handful of sectors rather than a broad-based tariff regime. Even so, industry groups representing affected manufacturers and importers have already begun lobbying against specific line items, arguing that added costs would be passed on to consumers or would disadvantage firms that rely on imported components.",
-      "Market reaction so far has been measured. Traders and analysts note that the proposals remain in a consultative stage, with no confirmed implementation timeline, and that similar trade discussions in the past have sometimes ended without concrete action. Still, currency and commodity markets tied to the sectors under discussion have shown modest sensitivity to headlines on the talks.",
-      "The bigger concern for many businesses is not the tariffs themselves but the uncertainty they create. Companies with cross-border supply chains often delay capital-expenditure decisions until trade terms are clearer, since a shift in tariff policy can materially change the economics of where to source components or locate production.",
-      "Officials involved in the discussions have signaled that further rounds of negotiation are expected before any measures are finalized, and that industry consultation will continue in the interim. Analysts expect the situation to remain fluid, with markets likely to react incrementally to news of progress or setbacks rather than treating any single headline as decisive.",
+      "The Trump administration is preparing to impose new tariffs on products from dozens of economies in late July 2026, a move intended to keep its broader tariff regime in place as temporary 10% global duties are set to expire. The new round follows an earlier action in which the U.S. Trade Representative's office imposed duties of at least 10-12.5% on goods from 60 countries, citing insufficient enforcement of forced-labor sourcing standards.",
+      "U.S. Trade Representative Jamieson Greer indicated that the next phase of tariff enforcement could eventually cover economies accounting for roughly 99% of total U.S. imports, underscoring the scale of the administration's trade agenda well into its second year.",
+      "China is described as bracing for the new U.S. tariffs, with regional commentary framing the moment as a test of whether the situation escalates into renewed trade-war conditions or settles into a more managed, if still elevated, level of trade friction between the two economies.",
+      "The tariff push has drawn legal challenges: a coalition of U.S. states, along with separate groups representing small businesses, is suing the administration over what they argue is a shifting and legally questionable set of statutory justifications for the global tariff program.",
+      "The renewed tariff activity follows a period of relative quiet after the U.S. Supreme Court struck down an earlier set of Trump tariffs and after the outbreak of the Iran conflict in February 2026 had shifted policy attention elsewhere. Trade analysts had expected the tariff campaign to stay dormant until after the November 2026 U.S. midterm elections, which this new round contradicts.",
     ],
     keywords: [
-      "Trade Policy",
       "Tariffs",
-      "Supply Chains",
-      "Global Trade",
-      "Manufacturing",
-      "Trade Negotiations",
+      "Trade Policy",
+      "US Trade Representative",
+      "China",
+      "Trade War",
+      "USMCA",
     ],
     date: TODAY,
     sources: [
-      { outlet: "Bloomberg", url: "https://www.bloomberg.com/trade" },
       {
-        outlet: "The Wall Street Journal",
-        url: "https://www.wsj.com/economy/trade",
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-21/us-set-to-impose-new-duties-by-friday-with-stopgap-to-expire",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/economy/global-economy/article/3361480/china-braces-new-us-global-tariffs-loom-fresh-trade-war-or-managed-friction",
       },
     ],
     crossCheck: [
-      { outlet: "Bloomberg", url: "https://www.bloomberg.com/trade" },
       {
-        outlet: "The Wall Street Journal",
-        url: "https://www.wsj.com/economy/trade",
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-21/us-set-to-impose-new-duties-by-friday-with-stopgap-to-expire",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/economy/global-economy/article/3361480/china-braces-new-us-global-tariffs-loom-fresh-trade-war-or-managed-friction",
       },
     ],
     selectionRationale:
-      "Affects multiple major economies and global trade policy (PRD §5-1 include criteria).",
+      "Affects nearly all major trading partners and global trade policy broadly (PRD §5-1 include criteria).",
   },
   {
-    slug: "global-growth-outlook-revised-amid-employment-data",
-    category: "Macro",
-    title: "Global growth outlook revised amid uneven employment data",
-    summary:
-      "International economic bodies have revised their global growth outlooks following a batch of employment data that came in stronger in some major economies and weaker in others. Part of the divergence is attributed to uneven post-pandemic labor-market recovery across regions, with Asian export-driven economies showing more resilience than initially forecast. The net revision is described as modest rather than dramatic. Forecasters cite continued uncertainty over consumer spending and business investment as reasons for caution in either direction.",
-    detail: [
-      "International economic bodies have updated their global growth projections after a wave of employment data showed a mixed picture across major economies, with some labor markets outperforming expectations and others cooling faster than anticipated. The revisions, while modest in aggregate, highlight how uneven the recovery from recent economic shocks has become across regions.",
-      "In several advanced economies, hiring has slowed from the brisk pace seen earlier in the cycle, raising questions about whether labor markets are undergoing an orderly cooling or something more concerning. Forecasters have generally read the data as consistent with a soft landing scenario, though they caution that the margin for error remains narrow.",
-      "Export-driven economies in Asia have shown more resilience than initially forecast, supported by steady external demand and diversified trading relationships. This regional strength has partially offset softer readings elsewhere, contributing to the overall modesty of the global growth revision despite significant country-level variation.",
-      "Consumer spending remains a key swing factor in the outlook. Analysts note that household balance sheets in many economies remain healthier than in prior downturns, but elevated borrowing costs and slower wage growth in some regions could weigh on discretionary spending in the coming quarters.",
-      "Business investment intentions are similarly mixed, with firms in some sectors continuing to expand capacity while others adopt a wait-and-see posture amid policy and demand uncertainty. Forecasters say this divergence in investment behavior is likely to keep global growth estimates subject to further revision as more data becomes available.",
-    ],
-    keywords: [
-      "Global Growth",
-      "Employment Data",
-      "Labor Market",
-      "Economic Forecast",
-      "Consumer Spending",
-      "Business Investment",
-    ],
-    date: TODAY,
-    sources: [
-      { outlet: "The Economist", url: "https://www.economist.com/finance-and-economics" },
-      { outlet: "Nikkei Asia", url: "https://asia.nikkei.com/Economy" },
-    ],
-    crossCheck: [
-      { outlet: "The Economist", url: "https://www.economist.com/finance-and-economics" },
-      { outlet: "Nikkei Asia", url: "https://asia.nikkei.com/Economy" },
-    ],
-    selectionRationale:
-      "Long-term significance for global growth trajectory (PRD §5-1 include criteria).",
-  },
-  {
-    slug: "equity-markets-swing-on-rate-path-uncertainty",
+    slug: "oil-tops-100-iran-war-houthi-red-sea-attacks",
     category: "Markets",
-    title: "Equity markets swing on rate-path uncertainty",
+    title: "Oil tops $100 a barrel as Iran war escalates and Houthi attacks hit Red Sea shipping",
     summary:
-      "Major equity indices saw wider-than-usual intraday swings this week as investors repriced rate-path expectations following recent central bank commentary. Rate-sensitive sectors recorded the largest moves, and trading volumes were elevated relative to recent sessions. Strategists caution that volatility could persist until upcoming policy meetings provide more clarity on the pace of further rate moves. The moves were broad-based across major markets rather than isolated to a single region.",
+      "Crude oil surged past $100 a barrel in late July 2026 — its first time above that level in two months — after Iran-backed Houthi militants said they attacked two Saudi Arabian tankers in the Red Sea, opening a new front in the Middle East conflict. The attacks threatened the Red Sea detour route Saudi Arabia has used to keep oil flowing amid separate disruptions in the Strait of Hormuz. Prices eased somewhat after the U.S. and Iran briefly refrained from further strikes, but gas prices were still expected to climb further as markets priced in continued disruption. Washington signaled it does not plan to tap its strategic petroleum reserve to ease prices this time.",
     detail: [
-      "Equity markets experienced notably wider intraday swings this week, as investors repriced expectations for the path of interest rates following a series of comments from central bank officials. The moves were broad-based across major indices, though the magnitude varied by market and by sector exposure.",
-      "Rate-sensitive sectors, including technology and real estate, recorded the largest swings, consistent with their higher sensitivity to changes in the discount rate applied to future earnings. Defensive sectors such as utilities and consumer staples were comparatively more stable, reflecting their lower correlation with rate expectations.",
-      "Trading volumes were elevated relative to recent sessions, an indication that the repricing was not confined to a small group of institutional investors but reflected broader participation. Options markets also showed increased hedging activity, with implied volatility measures ticking higher across major indices.",
-      "Strategists have pointed to the proximity of upcoming central bank policy meetings as a key reason for the choppy trading. With no fresh guidance expected until those meetings, markets are left to interpret incremental data releases and official commentary, a dynamic that tends to amplify short-term price swings.",
-      "Looking ahead, analysts expect volatility to remain elevated in the near term, with the potential for further swings around each new data release. They note, however, that historical patterns suggest such volatility tends to moderate once policy meetings provide clearer guidance on the rate path.",
-    ],
-    keywords: [
-      "Equity Markets",
-      "Stock Market Volatility",
-      "Interest Rates",
-      "Trading Volume",
-      "Technology Stocks",
-      "Market Sentiment",
-    ],
-    date: TODAY,
-    sources: [
-      { outlet: "Reuters", url: "https://www.reuters.com/markets/equities/" },
-      { outlet: "Bloomberg", url: "https://www.bloomberg.com/markets" },
-    ],
-    crossCheck: [
-      { outlet: "Reuters", url: "https://www.reuters.com/markets/equities/" },
-      { outlet: "Bloomberg", url: "https://www.bloomberg.com/markets" },
-    ],
-    selectionRationale:
-      "Systemic market-wide impact across major indices (PRD §5-1 include criteria).",
-  },
-  {
-    slug: "dollar-strengthens-as-bond-yields-climb",
-    category: "Markets",
-    title: "Dollar strengthens as bond yields climb",
-    summary:
-      "The dollar strengthened against a basket of major currencies this week as government bond yields climbed, a move tied to shifting expectations around the pace of future interest rate changes. The move was broad-based across G10 currency pairs, and emerging-market currencies came under additional pressure. Fixed-income strategists say the yield move reflects markets pricing in a slower path of policy easing than previously expected. The combination of a stronger dollar and higher yields has drawn particular attention from policymakers overseeing more indebted economies.",
-    detail: [
-      "The U.S. dollar strengthened against a basket of major currencies this week, moving in tandem with a climb in government bond yields that analysts attribute to shifting expectations for the pace of future interest rate changes. The dual move — a stronger currency alongside higher yields — is a pattern markets typically associate with reduced expectations for near-term policy easing.",
-      "The dollar's gains were broad-based, extending across most G10 currency pairs rather than being concentrated against any single counterpart. Analysts noted that the move reflected a repricing of relative rate expectations rather than any single dollar-specific catalyst, with yield differentials between the U.S. and other major economies widening as a result.",
-      "Emerging-market currencies came under additional pressure amid the broader dollar strength, a dynamic that tends to raise the local-currency cost of servicing dollar-denominated debt for governments and corporations in those markets. Analysts covering emerging markets flagged this as a factor worth monitoring in the weeks ahead.",
-      "Fixed-income strategists said the rise in bond yields reflected markets pricing in a slower path of policy easing than had previously been expected, rather than any specific new economic data point. Longer-dated yields moved more than shorter-dated ones, consistent with a shift in expectations about the medium-term rate path rather than the very next policy decision.",
-      "The combination of a stronger dollar and higher yields has drawn particular attention from policymakers overseeing more heavily indebted economies, where currency and borrowing-cost pressures can compound one another. Analysts say the situation bears watching for any signs of stress in economies with significant dollar-denominated obligations.",
-    ],
-    keywords: [
-      "US Dollar",
-      "Bond Yields",
-      "Currency Markets",
-      "Interest Rates",
-      "Emerging Markets",
-      "Fixed Income",
-    ],
-    date: TODAY,
-    sources: [
-      {
-        outlet: "The Wall Street Journal",
-        url: "https://www.wsj.com/market-data/currencies",
-      },
-      { outlet: "Financial Times", url: "https://www.ft.com/currencies" },
-    ],
-    crossCheck: [
-      {
-        outlet: "The Wall Street Journal",
-        url: "https://www.wsj.com/market-data/currencies",
-      },
-      { outlet: "Financial Times", url: "https://www.ft.com/currencies" },
-    ],
-    selectionRationale:
-      "Cross-market financial risk affecting FX and bond markets (PRD §5-1 include criteria).",
-  },
-  {
-    slug: "oil-prices-react-to-supply-policy-signals",
-    category: "Markets",
-    title: "Oil prices react to supply policy signals",
-    summary:
-      "Crude oil prices moved this week following public commentary from officials in major producing nations regarding supply policy. The immediate reaction was concentrated in futures markets, with downstream implications for Asian importers already managing tight energy budgets. Traders are watching for confirmation of any formal supply-policy change at the next scheduled meeting of producing nations. Until then, analysts are treating the move as a short-term reaction rather than a confirmed shift in output strategy.",
-    detail: [
-      "Crude oil prices moved notably this week after officials from major producing nations offered public commentary widely interpreted as signaling a potential shift in supply policy. The immediate reaction played out in futures markets, where traders adjusted positions ahead of any formal confirmation of a policy change.",
-      "The commentary did not amount to a formal announcement, and officials stopped short of committing to specific production changes. Even so, markets treated the remarks as a meaningful signal given the track record of similar commentary preceding actual policy shifts in the past.",
-      "Downstream, the price move carries direct implications for energy-importing economies, particularly in Asia, where several governments are already managing tight energy budgets amid broader fiscal pressures. Higher crude costs feed through to import bills, refined fuel prices, and, in some cases, subsidy programs that governments use to cushion consumers from price swings.",
-      "Analysts covering the producer group noted that formal confirmation of any supply-policy change is unlikely before the next scheduled meeting of producing nations, and that markets are likely to remain sensitive to further commentary in the interim. Positioning data suggests traders are already adjusting exposure in anticipation of that meeting.",
-      "Until a formal decision is confirmed, analysts are broadly characterizing the current price move as a short-term reaction to commentary rather than confirmation of a durable shift in output strategy, though they caution that sentiment in oil markets can shift quickly around scheduled producer meetings.",
+      "Crude oil prices surged past $100 a barrel in late July 2026, marking the first time the benchmark had crossed that level in two months, after Iran-backed Houthi militants said they had attacked two Saudi Arabian oil tankers in the Red Sea. The move opened a new front in the Middle East conflict and raised fears of deeper disruption to global oil supply routes.",
+      "The Red Sea has served as a critical detour for Saudi Arabian oil shipments amid separate, ongoing disruptions to traffic through the Strait of Hormuz, the primary gateway to the Persian Gulf. Targeting that detour route threatened to cut off one of the few remaining channels producers had been using to keep barrels flowing despite the wider conflict.",
+      "For the month of July, U.S. crude benchmark prices rose by roughly a fifth as the conflict widened. Gas prices at the pump were expected to climb further as markets priced in the risk of prolonged disruption, adding to household costs already under pressure from broader inflation.",
+      "Oil prices eased somewhat in the days that followed, after the United States and Iran refrained from launching further military strikes in the Persian Gulf for several consecutive days, offering markets some relief from the spike.",
+      "Unlike in past oil-price shocks, the U.S. signaled it does not plan to tap its Strategic Petroleum Reserve to bring prices down this time, even as the Iran war entered a new phase — a shift in policy response that analysts said reflected a more cautious approach to the reserve amid an unresolved, still-escalating conflict.",
     ],
     keywords: [
       "Oil Prices",
       "Crude Oil",
+      "Iran War",
+      "Red Sea",
+      "Strait of Hormuz",
       "Energy Markets",
-      "Commodities",
-      "Supply Policy",
-      "Energy Imports",
+      "OPEC",
     ],
     date: TODAY,
     sources: [
-      { outlet: "Reuters", url: "https://www.reuters.com/markets/commodities/" },
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-22/latest-oil-market-news-and-analysis-for-july-23",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/24/gas-prices-poised-climb-further-markets-price-iran-disruption/",
+      },
     ],
     crossCheck: [
-      { outlet: "Reuters", url: "https://www.reuters.com/markets/commodities/" },
-      { outlet: "Nikkei Asia", url: "https://asia.nikkei.com/Business/Energy" },
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-22/latest-oil-market-news-and-analysis-for-july-23",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/26/oil-prices-crude-iran-shipping/11044586-8948-11f1-8912-d71e69d679d7_story.html",
+      },
     ],
     selectionRationale:
-      "Global commodity market with wide economic ripple effects (PRD §5-1 include criteria).",
+      "Global commodity shock with direct pass-through to inflation and consumer costs worldwide (PRD §5-1 include criteria).",
   },
   {
-    slug: "major-chipmakers-report-capacity-expansion-plans",
-    category: "Business",
-    title: "Major chipmakers report capacity expansion plans",
+    slug: "nasdaq-correction-fed-decision-tech-rebound",
+    category: "Markets",
+    title: "Nasdaq 100 falls into correction after Fed decision, then rebounds on chipmaker strength",
     summary:
-      "Leading semiconductor firms have outlined new fabrication-capacity investments tied to sustained demand from AI-related computing workloads. The scale of planned capital expenditure is notable relative to prior years, and the new facilities span a range of geographies alongside various policy incentives. The expansion plans span multi-year timelines and remain subject to permitting and supply-chain constraints for specialized equipment. Industry watchers see the investments as a signal of confidence in the durability of AI-driven demand.",
+      "U.S. stocks swung sharply in the final days of July 2026: the Nasdaq 100 fell into correction territory — down more than 11% from its June peak — after the Fed's July 29 rate decision came with three dissents favoring a hike, while the S&P 500 dropped 1.5% and the Dow fell 2.2% the same day. Stocks then rebounded, with the S&P 500 climbing 0.7% and the Nasdaq composite jumping 1% by July 31, as a rally in chipmakers and other technology heavyweights overshadowed lingering inflation concerns. Dip buyers emerged on bets that the AI trade still has room to run.",
     detail: [
-      "Several of the world's leading semiconductor manufacturers have outlined significant new fabrication-capacity investments, which industry analysts tie directly to sustained demand from AI-related computing workloads. The scale of the planned capital expenditure marks a notable step-up relative to prior investment cycles in the industry.",
-      "The new facilities are geographically diverse, spanning multiple regions as companies balance considerations around cost, talent availability, and government incentive programs designed to attract advanced manufacturing investment. Several governments have offered subsidies or tax incentives specifically aimed at semiconductor capacity, which appear to be factoring into site-selection decisions.",
-      "Demand for advanced chips used in AI training and inference has been a central driver of the expansion plans, with company executives pointing to order backlogs and long-term supply agreements as justification for the scale of investment. Analysts note that this represents a bet on the durability of AI-related demand over a multi-year horizon rather than a response to near-term order books alone.",
-      "The expansion plans are structured across multi-year timelines, reflecting the long lead times involved in building and equipping advanced semiconductor fabrication facilities. Executives have cautioned that timelines remain subject to permitting processes and to the availability of specialized manufacturing equipment, which is itself supplied by a concentrated group of vendors.",
-      "Industry watchers view the scale of the announced investments as a signal of confidence among chipmakers that AI-driven demand will remain durable rather than a short-term spike. At the same time, analysts note that the capital intensity of these projects raises the stakes if demand growth were to slow before the new capacity comes online.",
+      "U.S. equity markets swung sharply in the final days of July 2026. On Wednesday, July 29, the S&P 500 fell 1.5%, the Dow Jones Industrial Average dropped 2.2%, and the Nasdaq composite lost 1.7%, as the Federal Reserve's decision to hold interest rates steady arrived alongside three dissenting votes in favor of a rate hike — a signal markets read as raising the odds of tighter policy ahead.",
+      "The Nasdaq 100 index closed in correction territory that day, down more than 11% from its June peak, as rate-sensitive technology shares bore the brunt of the selloff. The scale of the FOMC dissent, the largest same-direction split since 2016, amplified the market reaction beyond what the decision to hold rates alone might have produced.",
+      "Sentiment shifted over the following two sessions. By Friday, July 31, the S&P 500 had climbed 0.7%, the Dow added 0.5%, and the Nasdaq composite jumped 1%, as strong corporate earnings — particularly from technology heavyweights — helped overshadow the inflation concerns that had been rattling the bond market.",
+      "A rebound in major chipmakers played a central role in the recovery, with dip buyers emerging on speculation that the artificial-intelligence trade that has powered much of the year's bull market still had further room to run, despite the earlier correction in tech shares.",
+      "The week's volatility illustrated how sensitive equity markets have become to incremental Fed signals during 2026, with a single split vote enough to tip a major index into correction territory before a rebound driven by sector-specific earnings strength reversed much of the move within days.",
     ],
     keywords: [
+      "Stock Market",
+      "Nasdaq",
+      "S&P 500",
+      "Federal Reserve",
       "Semiconductors",
-      "AI Demand",
-      "Chipmakers",
-      "Capital Expenditure",
-      "Manufacturing",
-      "Technology Industry",
-      "Supply Chains",
+      "Market Volatility",
+      "AI Stocks",
     ],
     date: TODAY,
     sources: [
-      { outlet: "Bloomberg", url: "https://www.bloomberg.com/technology" },
       {
-        outlet: "The New York Times",
-        url: "https://www.nytimes.com/section/technology",
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-29/us-futures-tick-higher-as-semiconductor-stocks-climb-fed-looms",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/31/wall-street-stocks-dow-nasdaq/ee08da40-8d1d-11f1-8912-d71e69d679d7_story.html",
       },
     ],
     crossCheck: [
-      { outlet: "Bloomberg", url: "https://www.bloomberg.com/technology" },
       {
-        outlet: "The New York Times",
-        url: "https://www.nytimes.com/section/technology",
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-29/us-futures-tick-higher-as-semiconductor-stocks-climb-fed-looms",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/29/wall-street-stocks-dow-nasdaq/7aafba20-8b8b-11f1-8912-d71e69d679d7_story.html",
       },
     ],
     selectionRationale:
-      "Structural industry shift with global supply-chain relevance (PRD §5-1 include criteria).",
+      "Systemic, cross-index market swing tied directly to central bank policy (PRD §5-1 include criteria).",
   },
   {
-    slug: "automakers-adjust-supply-chains-amid-cost-pressure",
-    category: "Business",
-    title: "Automakers adjust supply chains amid input cost pressure",
+    slug: "treasury-yields-19-year-high-bond-selloff",
+    category: "Markets",
+    title: "30-year Treasury yield hits 19-year high as inflation and fiscal worries drive bond selloff",
     summary:
-      "Major automakers are restructuring supplier agreements in response to sustained input cost pressure. North American manufacturers are renegotiating multi-year parts contracts, while Asian suppliers are adapting their pricing and sourcing strategies in response. The companies involved are framing the restructuring as a cost-management measure rather than a change in overall production volumes. The moves reflect broader pressure across the auto industry to protect margins amid elevated input costs.",
+      "Yields on 30-year U.S. Treasury bonds climbed to almost 5.2%-5.23% in mid-to-late 2026 — their highest level in roughly 19 years, or since 2007 — as investors sold government debt on fears of persistent inflation, aggravated by the war in Iran and concerns about U.S. fiscal deterioration. The selloff has directly raised borrowing costs for everyday Americans, including mortgage and car-loan rates. It has also drawn attention as an early credibility test for new Fed Chair Kevin Warsh, whose dovish reputation has been tested by the combination of rising yields and internal dissent favoring rate hikes.",
     detail: [
-      "Major automakers are restructuring supplier agreements as sustained input cost pressure continues to squeeze margins across the industry. The changes span multiple regions, with manufacturers renegotiating contract terms that in some cases had been locked in for multiple years under different cost assumptions.",
-      "In North America, several manufacturers are renegotiating multi-year parts contracts directly with suppliers, seeking either price concessions or adjusted terms that share input cost risk more evenly between automaker and supplier. Industry analysts describe this as a departure from the fixed-price arrangements that were more common in prior years.",
-      "Asian suppliers, meanwhile, are adapting their own pricing and sourcing strategies in response, in some cases diversifying their raw-material sourcing to reduce exposure to volatile input costs. Several suppliers have also indicated they are reassessing production locations to better manage currency and logistics costs.",
-      "Companies involved in the restructuring have been careful to frame the changes as a cost-management measure rather than a signal of reduced production volumes, with several manufacturers reaffirming existing output targets even as they renegotiate supplier terms. Analysts broadly view the moves as defensive rather than a sign of weakening demand.",
-      "The restructuring reflects broader pressure across the auto industry to protect margins amid elevated input costs, including raw materials and logistics. Analysts expect further contract renegotiations across the sector as companies continue to adjust to a cost environment that differs meaningfully from the one in which many existing agreements were originally signed.",
+      "Yields on 30-year U.S. Treasury bonds climbed to nearly 5.2%-5.23% during 2026, reaching their highest level in almost 19 years — the highest since 2007 — as investors sold long-dated government debt amid fears of persistent inflation.",
+      "The bond selloff was aggravated by the war in Iran, which has pushed up energy prices and fed broader inflation concerns, as well as by mounting worries over the U.S. government's fiscal trajectory and growing debt burden.",
+      "The rise in yields has a direct, tangible effect on ordinary borrowers: as the global bond selloff drives up the price the U.S. government pays to borrow, related benchmark rates for mortgages and car loans have climbed as well, raising costs for American households.",
+      "The yield spike has also become an early test of credibility for Kevin Warsh, who took over as Federal Reserve chair in May 2026 on the basis of a dovish reputation. Elevated yields despite the Fed holding rates steady have raised questions among bond investors about whether the new chair's approach to inflation is being taken seriously by markets.",
+      "The situation reflects a broader dynamic seen across 2026: a resilient U.S. economy and Middle East tensions have simultaneously supported the dollar while pressuring Treasuries, a combination that has left traders navigating a market environment where currency strength and bond weakness are moving in tandem rather than offsetting one another as they more typically would.",
     ],
     keywords: [
-      "Automakers",
-      "Supply Chains",
-      "Input Costs",
-      "Manufacturing",
-      "Auto Industry",
-      "Supplier Contracts",
+      "Treasury Yields",
+      "Bond Market",
+      "Inflation",
+      "Federal Reserve",
+      "Kevin Warsh",
+      "US Fiscal Policy",
     ],
     date: TODAY,
     sources: [
       {
         outlet: "The Washington Post",
-        url: "https://www.washingtonpost.com/business/",
+        url: "https://www.washingtonpost.com/business/2026/05/20/rising-bond-yields-mean-higher-mortgages-car-loans-americans/",
       },
       {
-        outlet: "South China Morning Post",
-        url: "https://www.scmp.com/business",
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/markets/bonds/30-year-us-treasury-yield-rises-to-highest-since-2007",
       },
     ],
     crossCheck: [
       {
         outlet: "The Washington Post",
-        url: "https://www.washingtonpost.com/business/",
+        url: "https://www.washingtonpost.com/business/2026/05/20/rising-bond-yields-mean-higher-mortgages-car-loans-americans/",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/markets/bonds/30-year-us-treasury-yield-rises-to-highest-since-2007",
       },
       {
         outlet: "South China Morning Post",
-        url: "https://www.scmp.com/business",
+        url: "https://www.scmp.com/economy/global-economy/article/3361757/us-30-year-treasury-streak-how-will-5-yields-reshape-global-capital-flows",
       },
     ],
     selectionRationale:
-      "Supply-chain restructuring with cross-industry implications (PRD §5-1 include criteria).",
+      "Cross-market financial risk affecting global capital flows and borrowing costs (PRD §5-1 include criteria).",
   },
   {
-    slug: "cross-border-ma-activity-picks-up-in-energy-sector",
+    slug: "samsung-sk-hynix-520bn-chip-hub-south-korea",
     category: "Business",
-    title: "Cross-border M&A activity picks up in energy sector",
+    title: "Samsung and SK Hynix to build $520 billion AI chip hub in South Korea",
     summary:
-      "Cross-border merger and acquisition activity among energy firms has picked up as companies reposition their portfolios for a lower-carbon transition. Several of the larger deals are facing environmental and regulatory scrutiny, and valuation multiples for renewable-generation assets have diverged notably from those of traditional fossil-fuel assets. Deal activity remains concentrated among a small number of large, well-capitalized players rather than being broad-based across the sector. Analysts expect the trend to continue as companies seek scale in renewable generation.",
+      "South Korean President Lee Jae Myung announced an \"unprecedented\" 800 trillion won (roughly $518-520 billion) investment plan under which Samsung Electronics and SK Hynix will build two new chipmaking plants apiece in the country's southwest, aiming to expand capacity to meet surging AI-driven demand. The announcement, made June 29, 2026, is part of a broader push in which South Korea is orchestrating over 1,350 trillion won (about $880 billion) in combined chip and data-center investment from the two companies. Korean tech stocks rebounded sharply on the news.",
     detail: [
-      "Cross-border merger and acquisition activity among energy companies has picked up in recent weeks, as firms reposition their asset portfolios to align with an accelerating lower-carbon transition. The deals span both traditional energy producers seeking exposure to renewables and specialized renewable developers seeking scale and access to new markets.",
-      "Several of the larger transactions announced recently are facing heightened environmental and regulatory scrutiny, reflecting growing government attention to foreign ownership of energy assets and to the climate implications of major industry consolidation. Regulators in multiple jurisdictions have signaled they will review the deals closely before granting approval.",
-      "Valuation multiples for renewable-generation assets have diverged notably from those applied to traditional fossil-fuel assets, with buyers willing to pay a premium for established renewable portfolios given the long-term revenue visibility such assets typically offer. Advisers involved in the deals say this valuation gap has become a defining feature of energy-sector dealmaking.",
-      "Despite the increase in deal announcements, activity remains concentrated among a relatively small number of large, well-capitalized players capable of absorbing the scale and complexity of cross-border energy transactions. Smaller companies have been comparatively less active, constrained by financing costs and more limited access to capital.",
-      "Analysts expect the trend toward consolidation to continue as companies seek scale in renewable generation and look to diversify away from legacy fossil-fuel assets. They caution, however, that regulatory review timelines could slow the pace at which announced deals ultimately close.",
+      "South Korean President Lee Jae Myung announced on June 29, 2026, an investment plan under which Samsung Electronics and SK Hynix will jointly build two new chipmaking plants apiece in the country's southwest region, describing the roughly 800 trillion won (about $518-520 billion) commitment as \"unprecedented.\"",
+      "The plants are intended to rapidly expand South Korea's chip production capacity to meet surging demand tied to artificial intelligence, as the country seeks to defend and extend its position in the global AI hardware supply chain against intensifying competition.",
+      "The new chip-hub project sits within a still larger national push: South Korea is separately orchestrating combined investment of at least 1,350 trillion won (roughly $880 billion) from Samsung Electronics and SK Hynix into chips and data centers, which officials described as essential digital infrastructure for the country to remain competitive in the AI era.",
+      "Korean equity markets responded strongly to the announcement, with Samsung and SK Hynix shares helping to drive a rebound in the broader Korean stock market as investors welcomed the scale and specificity of the government-backed spending plan.",
+      "The announcement follows a period of intensifying global competition in AI-related chip manufacturing, with rival investments also under way at Taiwan Semiconductor Manufacturing Co. and other major producers, underscoring how central large-scale capacity expansion has become to the AI hardware race across East Asia.",
     ],
     keywords: [
-      "Mergers and Acquisitions",
-      "Energy Sector",
+      "Samsung",
+      "SK Hynix",
+      "Semiconductors",
+      "South Korea",
+      "Artificial Intelligence",
+      "Chip Manufacturing",
+      "Capital Investment",
+    ],
+    date: TODAY,
+    sources: [
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/tech/semiconductors/south-korea-announces-520bn-chip-plant-project-with-samsung-sk-hynix",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/06/29/korea-samsung-ai-hynix-chips/efa6b694-7394-11f1-b665-5f8be87f3787_story.html",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/tech/semiconductors/south-korea-announces-520bn-chip-plant-project-with-samsung-sk-hynix",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/06/29/korea-samsung-ai-hynix-chips/efa6b694-7394-11f1-b665-5f8be87f3787_story.html",
+      },
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-06-29/korean-stocks-rebound-as-samsung-sk-hynix-unveil-spending-plan",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/news/asia/east-asia/article/3358719/south-korea-unveils-us650-billion-megaprojects-dominate-global-ai-chip-market",
+      },
+    ],
+    selectionRationale:
+      "Structural industry investment with global AI supply-chain relevance and national policy backing (PRD §5-1 include criteria).",
+  },
+  {
+    slug: "nextera-dominion-67bn-utility-merger",
+    category: "Business",
+    title: "NextEra to buy Dominion Energy for $67 billion in largest-ever US utility merger",
+    summary:
+      "NextEra Energy agreed on May 18, 2026 to acquire rival utility Dominion Energy for $67 billion, in what was described as the largest utility acquisition in U.S. history. The combined company would span from Florida to the AI data centers clustered around Virginia, reflecting surging electricity demand tied to artificial intelligence infrastructure. NextEra is already the largest U.S. utility by market value and the country's biggest renewable-energy developer. Analysts framed the deal as signaling a new era of AI-driven utility mega-mergers, as power companies seek scale to meet data-center demand.",
+    detail: [
+      "NextEra Energy agreed on May 18, 2026 to acquire Dominion Energy for $67 billion, a transaction reported as the largest utility acquisition in U.S. history. The deal would create a combined company with operations spanning from Florida to the cluster of AI data centers concentrated around Virginia.",
+      "The merger is widely tied to surging electricity demand from artificial intelligence infrastructure. Data centers require enormous and increasingly steady power supplies, and Virginia in particular has become one of the largest data-center hubs in the world, giving Dominion's transmission and generation assets there significant strategic value.",
+      "NextEra is already the largest U.S. utility by market capitalization and the country's biggest developer of renewable-energy generation. Analysts described the acquisition as adding meaningful scale and financial capacity even for a company of NextEra's existing size, reflecting how much capital the AI-driven power buildout now demands.",
+      "Commentary following the announcement framed the deal as signaling a broader shift toward utility mega-mergers driven by AI infrastructure needs, with the scale of investment required to serve data-center demand pushing utilities toward consolidation to achieve the necessary scale and balance-sheet strength.",
+      "The transaction adds to a wider wave of energy-sector consolidation through 2026, as utilities and independent power producers reposition to capture demand from the data-center buildout while also continuing to expand renewable generation capacity.",
+    ],
+    keywords: [
+      "NextEra Energy",
+      "Dominion Energy",
+      "Utility Merger",
+      "AI Data Centers",
       "Renewable Energy",
-      "Cross-Border Deals",
-      "Energy Transition",
-      "Regulatory Review",
+      "Mergers and Acquisitions",
+      "Electricity Demand",
     ],
     date: TODAY,
     sources: [
-      { outlet: "The Guardian", url: "https://www.theguardian.com/business/energy" },
-      { outlet: "Financial Times", url: "https://www.ft.com/energy" },
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-05-18/nextera-to-buy-dominion-for-67-billion-to-form-utility-colossus",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/05/18/nextera-dominion-ai-electricity-utility/d3a6741e-52bc-11f1-9c40-7a0a12d9e745_story.html",
+      },
     ],
     crossCheck: [
-      { outlet: "The Guardian", url: "https://www.theguardian.com/business/energy" },
-      { outlet: "Financial Times", url: "https://www.ft.com/energy" },
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-05-18/nextera-to-buy-dominion-for-67-billion-to-form-utility-colossus",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/05/18/nextera-dominion-ai-electricity-utility/d3a6741e-52bc-11f1-9c40-7a0a12d9e745_story.html",
+      },
     ],
     selectionRationale:
-      "Structural industry change with cross-border economic relevance (PRD §5-1 include criteria).",
+      "Largest-ever deal in its sector with structural implications for AI infrastructure and energy markets (PRD §5-1 include criteria).",
+  },
+  {
+    slug: "big-tech-ai-spending-700-billion-2026",
+    category: "Business",
+    title: "Big Tech's AI spending tops $700 billion in 2026 despite bubble fears",
+    summary:
+      "Amazon, Alphabet, Microsoft, and Meta are together expected to spend nearly $700 billion on capital expenditure in 2026, most of it tied to AI data centers, with Google and Microsoft each guiding to roughly $190 billion in full-year capex and Meta raising its own estimate to $145 billion. Amazon said in late July it would boost its 2026 tech spending by an additional $20 billion after strong second-quarter results. The spending spree has begun to unsettle investors: Alphabet shares fell more than 7% after its capex guidance rose to as much as $205 billion and free cash flow turned negative for the first time since its 2004 IPO, feeding wider fears of an AI spending bubble.",
+    detail: [
+      "Amazon, Alphabet, Microsoft, and Meta are collectively expected to spend nearly $700 billion on capital expenditure in 2026, the large majority of it directed toward AI data-center buildout. Google and Microsoft have each guided to roughly $190 billion in full-year capex, while Meta Platforms raised its own 2026 estimate to $145 billion.",
+      "Amazon added to the spending wave in late July 2026, saying it would increase this year's technology spending — mostly related to artificial intelligence — by an additional 10%, or roughly $20 billion, after reporting strong second-quarter results and cloud-division performance.",
+      "Looking beyond 2026, the same four companies have committed to nearly $2.4 trillion in AI-related spending over the coming years, spanning data-center leases, construction, energy contracts, and equipment, as they compete for position in what several described as a still-nascent but rapidly scaling market.",
+      "The pace of spending has begun to unsettle investors. Alphabet shares fell more than 7% after the company raised its 2026 capital-expenditure guidance to as much as $205 billion and reported that free cash flow turned negative in the second quarter for the first time since its 2004 initial public offering.",
+      "Coverage of the spending wave has increasingly framed it as entering a more skeptical phase, with commentary describing an AI boom now confronting harder economic realities as investors weigh whether revenue growth can keep pace with the scale of capital committed.",
+      "Against that skepticism, industry data cited alongside the earnings showed global AI sales for hyperscalers and neoclouds, excluding China, reaching about $25 billion in the first quarter of 2026 — exceeding the industry's roughly $21 billion in depreciation costs tied to data-center and chip investment for a second consecutive quarter, an early signal cited by some as evidence the spending is starting to be justified by revenue.",
+    ],
+    keywords: [
+      "Big Tech",
+      "AI Spending",
+      "Capital Expenditure",
+      "Data Centers",
+      "Amazon",
+      "Alphabet",
+      "AI Bubble",
+    ],
+    date: TODAY,
+    sources: [
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/30/amazon-second-quarter-earnings-cloud/1fee30ba-8c55-11f1-8912-d71e69d679d7_story.html",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/technology/tech-asia/what-bubble-big-tech-s-ai-spending-spree-gathers-pace-in-2026",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/30/amazon-second-quarter-earnings-cloud/1fee30ba-8c55-11f1-8912-d71e69d679d7_story.html",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/technology/tech-asia/what-bubble-big-tech-s-ai-spending-spree-gathers-pace-in-2026",
+      },
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-31/big-tech-holds-2-trillion-of-spending-commitments-for-ai-boom",
+      },
+    ],
+    selectionRationale:
+      "Structural, industry-wide capital shift with global technology-supply-chain and market implications (PRD §5-1 include criteria).",
   },
 ];
 
