@@ -4,7 +4,6 @@
 import { redirect } from "next/navigation";
 import { getSupabaseServerClient } from "@/lib/supabase";
 import { sendConfirmationEmail } from "@/lib/email";
-import { appendSubscriberRow } from "@/lib/google-sheets";
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -27,11 +26,7 @@ export async function subscribe(formData: FormData) {
     redirect("/subscribe?status=error");
   }
 
-  // Supabase is the source of truth (has the uniqueness check above); the
-  // sheet append is a best-effort mirror and never blocks the redirect.
-  const subscribedDate = new Date().toISOString().slice(0, 10);
-  await appendSubscriberRow(email, subscribedDate);
-
+  // Supabase is the sole store for subscribers.
   await sendConfirmationEmail(email);
   redirect("/subscribe?status=success");
 }
