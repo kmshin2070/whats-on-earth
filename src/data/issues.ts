@@ -449,6 +449,376 @@ export const issues: Issue[] = [
     selectionRationale:
       "Structural, industry-wide capital shift with global technology-supply-chain and market implications (PRD §5-1 include criteria).",
   },
+  {
+    slug: "2026-08-05-us-tariff-wall-faces-legal-challenges",
+    category: "Macro",
+    title: "US tariff wall faces mounting legal challenges from states and small businesses",
+    summary:
+      "The Trump administration's July 24 tariffs of 10-12.5% on 60 trading partners, justified on forced-labor grounds under Section 301 of the Trade Act, are now facing a wave of litigation. A group of Democratic-led states sued in the US Court of International Trade, following small businesses that challenged the same tariffs the day they took effect. Both suits argue the president lacks legal authority to impose the levies via this route. The challenges follow a pattern: courts and litigants have repeatedly contested Trump-era tariffs on statutory-authority grounds, though the administration has kept reimposing them under new legal theories.",
+    detail: [
+      "On July 24, 2026, the Trump administration imposed tariffs of 10% to 12.5% on imports from 60 trading partners, including all 27 European Union member states, citing a US Trade Representative finding that these economies had failed to adequately curb forced labor in their supply chains. The move used Section 301 of the Trade Act of 1974, a trade-enforcement statute that gives the president broad latitude to respond to practices deemed to burden American commerce.",
+      "The tariffs quickly drew legal fire. Small businesses filed suit in New York on the day the duties took effect, arguing the administration was using a forced-labor justification as a pretext to reimpose tariffs a court had previously found exceeded presidential authority. A separate lawsuit followed from a group of states with Democratic attorneys general or governors, including New York and Oregon, filed in the US Court of International Trade.",
+      "Both sets of plaintiffs make a similar core argument: that Section 301, however flexible, does not give the president unilateral power to impose tariffs at this scale without the fact-specific investigative process the statute traditionally requires, and that the forced-labor rationale is being used to route around a Supreme Court ruling that had already struck down an earlier iteration of the tariff program.",
+      "This is not the first time Trump-era tariffs have run into this kind of legal resistance. States and small businesses have successfully challenged prior rounds of global tariffs during his second term, forcing the administration to repeatedly redraw its legal basis for the levies. Despite the string of setbacks, the White House has continued to reimpose tariffs under new statutory theories rather than abandon the strategy.",
+      "A related, broader Section 301 investigation is also underway into 16 economies — accounting for roughly 75% of US imports based on 2024 trade patterns, including China and the EU — over allegations of \"structural excess capacity\" in manufacturing, suggesting the current wave of forced-labor tariffs may be a precursor to a wider tariff push rather than a one-off action.",
+      "For businesses and trading partners, the practical effect is prolonged uncertainty: duties are in force and being collected even as their legal foundation is actively contested in court, with no near-term resolution expected given the pattern of appeals in prior tariff litigation.",
+    ],
+    keywords: [
+      "Tariffs",
+      "Trade Policy",
+      "Forced Labor",
+      "Section 301",
+      "Trump Administration",
+      "Court of International Trade",
+      "Trade War",
+    ],
+    date: "2026-08-05",
+    sources: [
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/news/world/united-states-canada/article/3362848/democratic-us-states-sue-challenge-trumps-latest-round-tariffs",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/politics/2026/07/25/tariffs-trump-forced-labor/16932418-883f-11f1-9cec-0fb26676f07e_story.html",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-floats-new-tariffs-on-60-economies-over-forced-labor-including-china",
+      },
+    ],
+    selectionRationale:
+      "A live legal challenge to a major US trade-policy action with direct implications for import costs across dozens of economies, not a minor or single-company story (PRD §5-1/§5-2).",
+  },
+  {
+    slug: "2026-08-05-china-cautious-growth-vows-trade-expansion",
+    category: "Macro",
+    title: "China's Politburo turns cautious on growth, vows to expand trade ties despite EU tensions",
+    summary:
+      "China's top decision-making body struck a more cautious tone on the domestic economy for the second half of 2026 while pledging to expand trade relationships, as Beijing leans on bond funding and infrastructure spending to keep growth on track. The shift comes as China struggles to lift consumer spending and reduce its reliance on exports, producing what analysts describe as a \"dual-speed\" economy. It also comes as hopes fade for narrowing the trade imbalance with the European Union, with Beijing signaling little room for compromise even as it talks up openness to trade partners more broadly.",
+    detail: [
+      "China's Politburo, the Communist Party's top decision-making body, vowed to step up macroeconomic policy support and bolster the resilience of capital markets for the remainder of 2026, while adopting a notably more cautious tone about the domestic growth outlook than in earlier statements this year.",
+      "The caution reflects a economy still struggling on two fronts: weak consumer spending at home and a heavy, and increasingly contested, reliance on exports abroad. Policymakers are betting on bond-funded infrastructure spending to offset that weakness, a strategy that has produced what several analysts describe as a \"dual-speed\" economy — resilient in state-directed investment, soft in household consumption.",
+      "On trade, Beijing's public message has been one of openness: senior officials have said China aims to boost both imports and exports in 2026 to drive trade growth, part of a broader effort to position the country as a stable, expansion-minded trade partner even as friction with the United States and Europe continues.",
+      "That message is complicated by China's relationship with the European Union, where hopes for resolving a widening trade imbalance are fading. A recently published policy document from Beijing was read by trade watchers as leaving little room for compromise, a stance that could push Brussels toward more protectionist measures of its own.",
+      "The combination — cautious domestic messaging, an infrastructure-led growth strategy, and a harder line with the EU even while courting other partners — illustrates the balancing act facing Chinese policymakers as they navigate a global environment shaped by the Middle East conflict's economic spillovers and an escalating series of US tariff actions.",
+    ],
+    keywords: [
+      "China Economy",
+      "Politburo",
+      "Trade Policy",
+      "European Union",
+      "Infrastructure Spending",
+      "Consumer Spending",
+      "Dual-Speed Economy",
+    ],
+    date: "2026-08-05",
+    sources: [
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/economy/china-vows-to-expand-trade-ties-as-leaders-turn-cautious-on-economy",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/economy/china-economy/article/3336373/china-aims-boost-imports-and-exports-2026-drive-trade-growth-senior-official",
+      },
+    ],
+    selectionRationale:
+      "A policy-level signal from China's top leadership on growth strategy and trade posture, with direct relevance to global trade flows and EU relations, not a routine data release (PRD §5-1).",
+  },
+  {
+    slug: "2026-08-05-us-iran-edge-toward-hormuz-deal",
+    category: "Macro",
+    featured: true,
+    title: "US and Iran edge toward deal to reopen Strait of Hormuz, though Tehran denies direct talks",
+    summary:
+      "US Treasury Secretary Scott Bessent said Tuesday a deal to reopen the Strait of Hormuz to free movement of shipping could come within a day or two, even as Iran publicly denied that direct negotiations were taking place. The strait has been a flashpoint since fighting between the US and Iran intensified around it in mid-2026, following a tentative ceasefire reached in June that both sides have repeatedly accused each other of violating. Markets reacted to the diplomatic signals immediately, with oil prices dropping and equities rallying on hopes that a resolution is closer than it has been in weeks.",
+    detail: [
+      "Treasury Secretary Scott Bessent said Tuesday that the US and Iran were in active talks and that a deal to reopen the Strait of Hormuz to \"freedom of movement\" could be reached within a day or two — a notably concrete timeline after months of on-again, off-again diplomacy over the critical shipping route.",
+      "Iran's government publicly disputed that characterization, denying that direct negotiations were underway, even as officials from Qatar — which has played a mediating role — said an interim proposal had been drafted and that both Washington and Tehran had signaled progress. The gap between the US and Iranian public statements underscores how fragile and contested the diplomatic process remains.",
+      "The current push follows a volatile few months. The US and Iran reached a tentative ceasefire and a framework to reopen the strait in mid-June, but implementation faltered almost immediately, with both sides accusing each other of violations. Fighting around the strait intensified again in July, even as diplomatic channels — including outreach through Pakistan — stayed open.",
+      "Financial markets have been trading closely on headlines out of this negotiation for weeks. Crude oil fell roughly 5% on Tuesday alone after a Qatari official's comments on the diplomatic track, extending a decline of more than 10% over the prior two sessions, while US equities rallied on the same set of signals, illustrating how central the Hormuz question has become to near-term market pricing of energy and inflation risk.",
+      "A durable reopening of the strait — one of the world's most important oil chokepoints — would remove a significant source of upside risk to global energy prices and, by extension, to the inflation and interest-rate outlook in the US and beyond. Conversely, a breakdown in talks, given the pattern of prior violations, would risk reigniting the price shock that has weighed on global growth forecasts through much of 2026.",
+    ],
+    keywords: [
+      "Iran",
+      "Strait of Hormuz",
+      "Geopolitics",
+      "Oil Prices",
+      "Ceasefire",
+      "Scott Bessent",
+      "Middle East",
+    ],
+    date: "2026-08-05",
+    sources: [
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/national-security/2026/08/03/trump-claims-active-ceasefire-talks-iran-denies-direct-negotiations/",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-04/latest-oil-market-news-and-analysis-for-aug-5",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/news/world/middle-east/article/3362025/iran-halts-strikes-trump-gives-space-talks",
+      },
+    ],
+    selectionRationale:
+      "A major geopolitical development with immediate, cross-asset market impact (oil, equities, bonds) and direct bearing on the global inflation and growth outlook — the clearest candidate for today's featured issue (PRD §5-1).",
+  },
+  {
+    slug: "2026-08-05-sp500-dow-record-close-ai-earnings",
+    category: "Markets",
+    title: "S&P 500, Dow close at record highs as AI-linked earnings offset Mideast jitters",
+    summary:
+      "The S&P 500 and the Dow Jones Industrial Average both closed at record highs, powered by a strong batch of AI-linked earnings that eased concerns about the durability of AI-driven demand. Palantir Technologies surged 29.5% after raising its annual revenue forecast, its biggest one-day gain since February 2024, while industrial bellwether Caterpillar jumped 5.6% on higher guidance tied to AI data-center-driven demand for its equipment. The rally came even as crude oil fell roughly 5% on renewed hopes for a diplomatic resolution over the Strait of Hormuz, a reminder of how tightly intertwined equity and energy markets have become this year.",
+    detail: [
+      "The S&P 500 and the Dow Jones Industrial Average closed at record levels, with the advance driven largely by a strong round of corporate earnings tied to artificial intelligence demand, which helped quiet investor worries about whether the AI investment cycle can sustain its pace.",
+      "Palantir Technologies was the standout mover, soaring 29.5% for its biggest daily percentage gain since February 2024, after the data-analytics company raised its annual revenue forecast. Caterpillar, widely watched as a bellwether for the global industrial economy, gained 5.6% after lifting its own revenue growth guidance, citing demand from the buildout of AI data centers for its power-generation and construction equipment.",
+      "Not every AI-adjacent name moved the same direction: Elon Musk's SpaceX closed up 9.4% ahead of its earnings release, then fell back roughly 4% after the report itself — its first as a public company — landed with a mix of a large revenue jump and a quarterly loss. Elsewhere, McDonald's rose 1.2% despite a disappointing quarter, while Pfizer gained 1.5% on stronger-than-expected results.",
+      "The equity rally coincided with a sharp drop in crude prices, down roughly 5% on the day, after a Qatari official signaled continuing progress toward a diplomatic resolution over the Strait of Hormuz, and after US Treasury Secretary Scott Bessent said a deal to reopen the strait to Iran could come within days. Falling energy prices reinforced the risk-on mood in equities by easing near-term inflation concerns.",
+      "The session captured a broader pattern that has defined markets through much of 2026: AI-linked capital spending and earnings on one hand, and Middle East geopolitical risk on the other, moving in tandem to set the tone for both stocks and commodities on any given day.",
+    ],
+    keywords: [
+      "S&P 500",
+      "Dow Jones",
+      "Stock Market",
+      "AI Earnings",
+      "Palantir",
+      "Caterpillar",
+      "Record High",
+    ],
+    date: "2026-08-05",
+    sources: [
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/markets/dow-s-p-500-close-at-record-on-ai-linked-earnings-mideast-deal-hopes",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-04/stock-market-today-dow-s-p-live-updates",
+      },
+    ],
+    selectionRationale:
+      "A broad market-moving event (index records driven by a cluster of major earnings) with clear macro linkage to the Hormuz diplomacy story, not single-stock noise (PRD §5-2).",
+  },
+  {
+    slug: "2026-08-05-oil-tumbles-below-80-hormuz-hopes",
+    category: "Markets",
+    title: "Oil tumbles below $80 a barrel as hopes build for a Hormuz deal",
+    summary:
+      "Crude oil extended a sharp decline, with Brent dropping below $79 a barrel and West Texas Intermediate falling toward $75, as optimism grew around a possible US-Iran agreement to reopen the Strait of Hormuz. Both benchmarks have now lost more than 10% over two trading sessions, unwinding much of the risk premium that had built up during months of intermittent fighting around the strait. The move reflects how closely oil markets are now tracking the diplomatic signals coming out of Washington, Tehran, and Doha.",
+    detail: [
+      "Oil prices extended a steep slide, with Brent crude dropping below $79 a barrel and US benchmark West Texas Intermediate falling toward $75, as traders grew more confident that a diplomatic resolution over the Strait of Hormuz was within reach.",
+      "The decline has been rapid: both Brent and WTI have lost more than 10% over just two trading sessions, a sharp reversal from earlier in the summer when Brent briefly topped $100 a barrel on supply fears tied to the conflict around the strait.",
+      "The immediate catalyst was a mix of official signals — a Qatari official's comments on continuing progress in mediation efforts, and US Treasury Secretary Scott Bessent's statement that a deal to reopen the strait could be reached within a day or two — even as Iran publicly denied that direct talks were underway.",
+      "Energy companies have been warning that the elevated-price environment was already reshaping the market regardless of a deal's ultimate timing: Exxon and Chevron both flagged that fuel prices would likely stay elevated for a period given how much refining capacity had been knocked offline by the conflict, a dynamic that a Hormuz reopening would only gradually unwind.",
+      "For markets more broadly, the drop in oil prices is functioning as a disinflationary signal, feeding directly into lower Treasury yields and a more risk-tolerant tone in equities, which is why a story that began as a geopolitical and shipping issue has become one of the most closely watched inputs across asset classes this week.",
+    ],
+    keywords: [
+      "Oil Prices",
+      "Brent Crude",
+      "WTI",
+      "Strait of Hormuz",
+      "Commodities",
+      "Energy Markets",
+      "Iran",
+    ],
+    date: "2026-08-05",
+    sources: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-04/emerging-markets-stay-under-pressure-as-iran-impasse-lifts-oil",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/national-security/2026/08/03/trump-claims-active-ceasefire-talks-iran-denies-direct-negotiations/",
+      },
+    ],
+    selectionRationale:
+      "A sharp, multi-session commodity move with direct read-through to inflation and rate expectations globally, not short-term single-session noise (PRD §5-2).",
+  },
+  {
+    slug: "2026-08-05-treasury-yields-ease-oil-drop",
+    category: "Markets",
+    title: "Treasury yields ease as falling oil prices curb Fed rate-hike bets",
+    summary:
+      "US Treasury yields moved lower this week as the sharp drop in crude oil prices reduced pressure on the Federal Reserve to raise rates further, with the benchmark 10-year yield at 4.62% and the 2-year yield at its lowest level since July 20. The move offers some relief after a summer in which the 30-year yield spent its longest stretch above 5% since the 2007-08 financial crisis, driven by concerns about persistent inflation and a growing federal debt load. The shift illustrates how directly this week's oil-price decline, tied to hopes for a Strait of Hormuz resolution, is feeding through into the broader interest-rate outlook.",
+    detail: [
+      "US Treasury yields eased this week, with the benchmark 10-year note at 4.62% and the 2-year yield touching its lowest level since July 20, as falling oil prices reduced the perceived odds of additional Federal Reserve interest-rate increases.",
+      "The move is a reversal of the trend that dominated much of the summer: the 30-year Treasury yield held above 5% for its longest stretch since the run-up to the 2007-08 financial crisis, as investors grew increasingly concerned about a combination of sticky inflation and a growing pile of federal debt.",
+      "This week's shift is tied directly to the drop in crude prices following signals of progress toward a US-Iran agreement to reopen the Strait of Hormuz. Lower energy prices reduce a key input into near-term inflation readings, which in turn eases the case for further Fed tightening — the same logic that has been supporting equities this week.",
+      "The Fed itself has been sending mixed signals. At its most recent meeting, held in late July, the central bank left rates unchanged for a fifth straight meeting, but three officials dissented in favor of a further increase, reflecting real division within the committee about how much further monetary tightening is needed given inflation that has remained above the Fed's 2% target for more than five years.",
+      "Bond investors are now watching two variables in tandem: whether the Hormuz diplomacy holds, which would extend the current disinflationary relief in energy prices, and how the Fed's internal debate over further hikes resolves at its next meeting — with this week's yield moves suggesting markets currently see the oil-driven relief as the more dominant near-term factor.",
+    ],
+    keywords: [
+      "Treasury Yields",
+      "Federal Reserve",
+      "Bond Market",
+      "Interest Rates",
+      "Oil Prices",
+      "Inflation",
+      "10-Year Yield",
+    ],
+    date: "2026-08-05",
+    sources: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-04/treasuries-rise-as-falling-oil-prices-trim-fed-rate-hike-wagers",
+      },
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-22/us-30-year-yield-raises-alarm-in-longest-run-above-5-since-2007",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/national-security/2026/08/03/trump-claims-active-ceasefire-talks-iran-denies-direct-negotiations/",
+      },
+    ],
+    selectionRationale:
+      "Connects a bond-market move directly to both Fed policy and the Hormuz diplomacy story, giving readers the fixed-income leg of a cross-asset macro event (PRD §5-2).",
+  },
+  {
+    slug: "2026-08-05-ai-boom-deepens-memory-chip-shortage",
+    category: "Business",
+    title: "AI boom deepens global memory chip shortage, squeezing PC and phone makers",
+    summary:
+      "A memory-chip shortage driven by surging demand from AI data-center buildouts is intensifying, with prices up roughly sixfold and industry researchers warning the crunch is likely to persist until around 2027. PC makers including HP, Asus and Acer have begun using small volumes of chips from China's ChangXin Memory Technologies to work around the shortage, while Apple is expected to raise iPhone prices this fall as chip costs climb. The squeeze illustrates how AI infrastructure spending is now spilling over into consumer electronics pricing well beyond the data-center hardware makers most directly tied to the AI boom.",
+    detail: [
+      "A global shortage of memory chips, driven by surging demand from AI data-center buildouts, is deepening, with industry researchers describing it as an unprecedented crunch that is pushing prices up by roughly sixfold from prior levels.",
+      "Market-research firm IDC has projected that the shortage will meaningfully shrink global smartphone sales — by as much as 200 million units — and that the global smartphone market itself could contract by nearly 13% in 2026, the sharpest drop on record for the industry, as manufacturers struggle to secure enough memory at viable prices.",
+      "The shortage is forcing unusual supply-chain workarounds: leading PC makers HP, Asus and Acer have begun incorporating small volumes of chips from China's ChangXin Memory Technologies (CXMT) into their products, a shift that would have been unlikely before the crunch given the historical dominance of Samsung, SK Hynix and Micron in the memory market.",
+      "Even as those three top suppliers ramp up DRAM production, analysts expect the shortage to persist until around 2027, meaning the pricing pressure on device makers — and by extension consumers — is likely to be a multi-year story rather than a short-term blip.",
+      "The effects are already visible at the high end of the consumer market: Apple has been raising prices on MacBooks and iPads, and is expected to lift iPhone prices this fall as the AI-driven chip-cost increases work their way through its supply chain, illustrating how a shortage that began in AI infrastructure has become a broad-based cost pressure across consumer technology.",
+      "The dynamic underscores a theme that has run through much of 2026: the scale of capital being funneled into AI data-center buildouts is large enough to distort adjacent markets — in this case, the memory chips that PCs, phones and other consumer devices also depend on — well beyond the AI industry itself.",
+    ],
+    keywords: [
+      "Memory Chips",
+      "Semiconductor Shortage",
+      "AI Infrastructure",
+      "Supply Chain",
+      "DRAM",
+      "Apple",
+      "Consumer Electronics",
+    ],
+    date: "2026-08-05",
+    sources: [
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/tech/semiconductors/memory-shortage-set-to-run-until-2027-as-chipmakers-focus-on-ai",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/tech/tech-trends/article/3358907/chip-supply-chain-braces-more-price-hikes-upstream-parts-create-new-bottlenecks",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/technology/2026/06/26/apple-is-raising-prices-will-iphones-be-next/",
+      },
+    ],
+    selectionRationale:
+      "An industry-wide supply-chain and pricing shift spanning multiple sectors (semiconductors, PCs, smartphones), not a single-company event (PRD §5-1/§5-2).",
+  },
+  {
+    slug: "2026-08-05-paramount-warner-merger-halted-judge",
+    category: "Business",
+    title: "Judge halts Paramount-Warner Bros. Discovery $110 billion merger amid states' antitrust suit",
+    summary:
+      "A federal judge ordered Paramount Skydance and Warner Bros. Discovery to pause their roughly $110 billion merger for at least two weeks, granting a request from a coalition of 12 Democratic state attorneys general who argue the deal would harm competition in media and entertainment. The pause came even though the US Justice Department had separately concluded the merger was unlikely to harm competition or consumers. A trial in the states' case has now been scheduled for March 2027, meaning the deal — first announced in February 2026 — faces months more legal uncertainty before it can close.",
+    detail: [
+      "A federal judge ordered Paramount Skydance Corp. and Warner Bros. Discovery Inc. to halt their proposed merger for at least two weeks, granting a request from a coalition of Democratic state attorneys general who are seeking to block the deal on antitrust grounds.",
+      "The injunction responds to a lawsuit brought by 12 state attorneys general, who argue that the combination — which would bring together two of the largest remaining traditional media and streaming companies — would irreparably harm competition in the industry if allowed to close before their case is heard.",
+      "The states' position is notably at odds with the federal government's own antitrust review: the US Department of Justice had separately concluded that the merger was not likely to harm competition or consumers, setting up an unusual dynamic in which state-level enforcers are pursuing a case the federal regulator chose not to bring.",
+      "A trial in the states' lawsuit has now been scheduled to begin in March 2027 in California, meaning Paramount and Warner Bros. Discovery face many more months of legal uncertainty before the deal can proceed to closing, even as both companies continue to argue the tie-up should be allowed to go forward.",
+      "The merger itself was first announced in late February 2026, with Paramount agreeing to pay $31.00 per share in cash for all outstanding Warner Bros. Discovery shares, valuing the transaction at roughly $110 billion — one of the largest media deals in years, reflecting continued consolidation pressure across an industry grappling with streaming economics and audience fragmentation.",
+    ],
+    keywords: [
+      "Paramount",
+      "Warner Bros. Discovery",
+      "Mergers & Acquisitions",
+      "Antitrust",
+      "Media Industry",
+      "State Attorneys General",
+      "Streaming",
+    ],
+    date: "2026-08-05",
+    sources: [
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/20/paramount-skydances-110b-merger-with-warner-bros-discovery-paused-by-judge/",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/news/world/united-states-canada/article/3361266/us-judge-suspends-paramounts-acquisition-warner-bros",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-04/paramount-warner-bros-merger-challenges-set-for-trial-in-march",
+      },
+    ],
+    selectionRationale:
+      "A major, high-value M&A deal with broad industry consolidation implications now facing a court-ordered halt — a genuine structural development, not routine deal news (PRD §5-1/§5-2).",
+  },
+  {
+    slug: "2026-08-05-spacex-first-earnings-post-ipo-ai-capex",
+    category: "Business",
+    title: "SpaceX posts mixed first earnings as a public company as AI-driven capex weighs on results",
+    summary:
+      "SpaceX reported its first earnings as a public company, posting a 92% jump in quarterly revenue driven by Starlink subscription growth and rising AI compute demand, alongside a net loss of more than $500 million. The results reflect the massive capital intensity of the company's expansion, including AI-linked data-center spending, following its record-setting $85.7 billion IPO in June that briefly pushed its market value above $2 trillion. SpaceX shares, already down roughly half from their post-IPO peak, fell further after the earnings release as investors weighed the scale of ongoing losses against the revenue growth.",
+    detail: [
+      "SpaceX reported its first quarterly results as a public company, posting a 92% year-over-year jump in revenue, driven by continued growth in Starlink satellite-internet subscriptions and rising demand tied to AI compute workloads.",
+      "Alongside that revenue growth, the company reported a net loss of more than $500 million for the quarter, underscoring how capital-intensive its expansion remains even as the top line accelerates — spending that increasingly includes investment tied to AI data-center capacity rather than only its core rocket and satellite businesses.",
+      "The earnings mark a closely watched milestone: SpaceX went public in June 2026 in the largest initial public offering on record, raising $85.7 billion and briefly pushing the company's market capitalization above $2 trillion on its debut day, a valuation built substantially on expectations for future growth rather than current profitability.",
+      "That valuation has already come under pressure. SpaceX shares are down by roughly half from their June peak heading into this earnings report, as some investors grew skeptical that Elon Musk's long-term ambitions for the company justified the scale of ongoing capital spending — concerns the mixed results did little to fully resolve.",
+      "Shares moved further in postmarket trading following the release, as investors weighed the strong revenue growth against both the size of the quarterly loss and the company's continued heavy capital expenditure, including outlays tied to AI infrastructure that echo the spending patterns seen across the broader technology sector this year.",
+      "The results add SpaceX to the list of major companies whose earnings this week were shaped as much by AI-related capital spending as by their traditional core businesses, a pattern that has become a defining feature of this earnings season across sectors from industrials to aerospace.",
+    ],
+    keywords: [
+      "SpaceX",
+      "IPO",
+      "AI Capex",
+      "Elon Musk",
+      "Earnings",
+      "Starlink",
+      "Capital Spending",
+    ],
+    date: "2026-08-05",
+    sources: [
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/technology/2026/08/04/elon-musks-spacex-lost-hundreds-millions-after-record-setting-ipo/",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/aerospace-defense-industries/spacex-reports-92-revenue-jump-in-first-post-ipo-earnings",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-04/spacex-exceeds-revenue-estimates-in-first-earnings-since-ipo",
+      },
+    ],
+    selectionRationale:
+      "First earnings report of a newly public, market-moving company with direct relevance to the broader AI-capex investment theme running through markets this week (PRD §5-1/§5-2).",
+  },
 ];
 
 // Plan Ref: PLAN.md step 9 — runs at module-load time, so `next build` and
