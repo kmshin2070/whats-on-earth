@@ -1,8 +1,9 @@
-// Design Ref: DESIGN.md §1.2 — full list of one category's issues, no display cap.
+// Design Ref: DESIGN.md §1.2 — full list of one category's issues across all
+// dates, no display cap, sorted newest first (not just the latest date's batch).
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CATEGORIES, type Category } from "@/types/issue";
-import { issuesForLatestDate, latestDate } from "@/data/issues";
+import { issues, latestDate } from "@/data/issues";
 import { IssueCard } from "@/components/IssueCard";
 
 export function generateStaticParams() {
@@ -22,9 +23,9 @@ export default async function CategoryPage({
   const category = findCategory(categoryParam);
   if (!category) notFound();
 
-  const categoryIssues = issuesForLatestDate().filter(
-    (issue) => issue.category === category
-  );
+  const categoryIssues = issues
+    .filter((issue) => issue.category === category)
+    .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
   const updatedDate = latestDate();
 
   return (
