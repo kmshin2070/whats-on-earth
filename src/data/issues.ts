@@ -819,6 +819,434 @@ export const issues: Issue[] = [
     selectionRationale:
       "First earnings report of a newly public, market-moving company with direct relevance to the broader AI-capex investment theme running through markets this week (PRD §5-1/§5-2).",
   },
+  {
+    slug: "2026-08-06-iran-oman-hormuz-shipping-route-deal",
+    category: "Macro",
+    featured: true,
+    title: "Iran and Oman finalize coordinates for a new Strait of Hormuz shipping corridor",
+    summary:
+      "Iran's Foreign Ministry said Tehran and Muscat have finalized the geographic coordinates of a proposed shipping corridor through the Strait of Hormuz, under which vessels would enter the Persian Gulf via an Iranian-controlled route and exit via one controlled by Oman. A joint statement is in final drafting, and US officials suggested a broader agreement could be reached within days. The arrangement remains contingent on the US lifting its blockade of Iranian ports, and a separate Iranian push to levy transit fees is opposed by the US and Gulf states as inconsistent with international maritime law. Roughly a fifth of global oil and LNG trade transits the strait, so even a preliminary framework has been enough to move oil prices and equity markets worldwide this week.",
+    detail: [
+      "Iran's Foreign Ministry said on August 5 that Tehran and Muscat have agreed on the geographic coordinates of a new shipping corridor through the Strait of Hormuz, under which vessels bound for the Persian Gulf would enter via a route under Iranian control and exit via a separate route controlled by Oman. Officials from both countries said a joint statement formalizing the arrangement is in its final drafting stage.",
+      "US Treasury Secretary Scott Bessent said as recently as August 5 that a broader deal could be reached within about two days, reflecting the pace at which talks have moved after months of disruption to shipping through the strait tied to the wider war in Iran. The corridor proposal is the most concrete step yet toward normalizing traffic through the waterway.",
+      "The arrangement is not unconditional: Iran has made the deal contingent on the United States lifting its blockade of Iranian ports, a step Washington has not yet committed to. Iran is also seeking to charge transit fees on vessels using the corridor, a proposal the US and Gulf states have opposed as inconsistent with United Nations rules on freedom of navigation through international straits.",
+      "The stakes are unusually high for the global economy because of the strait's outsized role in energy trade: roughly 20% of the world's oil and liquefied natural gas shipments pass through Hormuz. Prolonged disruption there has been a central input into this year's inflation and growth forecasts from the IMF and World Bank alike, both of which flagged the war's energy-price effects as a primary downside risk for 2026.",
+      "Financial markets have moved in step with the on-again, off-again progress of the talks: oil prices have swung sharply over the past two weeks on shifting odds of a deal, and gold and equities have rallied on days when a resolution appeared closer, reflecting how concentrated global market risk has become around this single flashpoint.",
+      "A durable reopening of Hormuz would also reshape the calculus facing the Federal Reserve, whose policymakers split three ways at their July meeting partly over how much further energy-driven inflation from the conflict might still have to run. Traders are now watching the corridor talks as closely as incoming inflation data ahead of the Fed's September meeting.",
+    ],
+    keywords: [
+      "Strait of Hormuz",
+      "Iran",
+      "Oman",
+      "Oil Shipping",
+      "Geopolitics",
+      "Energy Security",
+      "Iran War",
+    ],
+    date: "2026-08-06",
+    sources: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/news/world/middle-east/article/3363094/iran-and-oman-agree-new-hormuz-route-tehran-says",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/news/world/middle-east/article/3363094/iran-and-oman-agree-new-hormuz-route-tehran-says",
+      },
+    ],
+    selectionRationale:
+      "The single geopolitical development with the widest global ripple effects today — a concrete step toward reopening a chokepoint for a fifth of world oil/LNG trade, directly moving energy prices, equities, and Fed policy expectations (PRD §5-1/§5-2).",
+  },
+  {
+    slug: "2026-08-06-fed-holds-rates-hawkish-dissent",
+    category: "Macro",
+    title: "Fed holds rates steady as three regional presidents dissent in favor of a hike",
+    summary:
+      "The Federal Reserve held its benchmark rate at 3.50%-3.75% at its July 29 meeting, but the 9-3 vote included the first three-way hawkish dissent since 2016, with regional bank presidents Beth Hammack, Neel Kashkari and Lorie Logan all favoring a rate increase. The dissenters pointed to inflation pressure from tariffs and from war-linked energy costs tied to the Iran conflict. Chair Kevin Warsh, in only his second meeting leading the committee, described the split as a genuine internal disagreement rather than a formality. The division sets up a high-stakes September 16 meeting, with markets now parsing every signal — including this week's progress on a Strait of Hormuz shipping deal — for clues on whether the Fed hikes, holds, or cuts next.",
+    detail: [
+      "The Federal Open Market Committee voted 9-3 on July 29 to hold its benchmark interest rate in a range of 3.50% to 3.75%, but the dissent was unusually large: three regional Federal Reserve Bank presidents — Cleveland's Beth Hammack, Minneapolis's Neel Kashkari and Dallas's Lorie Logan — all voted in favor of a rate increase rather than a hold, the first three-way hawkish dissent at the Fed since 2016.",
+      "The dissenting officials pointed to two distinct inflationary pressures: tariff-driven cost increases working their way through consumer prices, and energy costs stemming from the war in Iran, which has periodically disrupted oil shipping through the Strait of Hormuz and kept a risk premium embedded in crude prices for much of 2026.",
+      "Chair Kevin Warsh, presiding over only his second meeting since taking the helm, characterized the divide as a genuine, substantive disagreement among policymakers about the balance of risks — inflation still running above target on one side, versus signs of a cooling labor market on the other — rather than a routine procedural dissent.",
+      "The decision keeps the Fed on hold for now, but the scale of the dissent signals real internal division heading into the September 16 meeting, where officials will have another full inflation and employment data cycle — plus whatever progress has been made on the Hormuz shipping talks — to weigh before their next decision.",
+      "Markets have treated the July meeting as a pivot point: gold, Treasury yields and the dollar have all moved on shifting expectations about whether easing progress in the Middle East will let the Fed hold its current stance, or whether persistent tariff- and energy-driven inflation will force the three dissenters' view to prevail by September.",
+      "The episode underscores how directly this year's geopolitical shocks — the Iran war and the tariff regime — have become inputs into core US monetary policy, a dynamic that is also shaping central bank decisions and currency markets well beyond the United States.",
+    ],
+    keywords: [
+      "Federal Reserve",
+      "Interest Rates",
+      "Monetary Policy",
+      "Kevin Warsh",
+      "Inflation",
+      "FOMC",
+      "Tariffs",
+    ],
+    date: "2026-08-06",
+    sources: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-29/fed-holds-rates-steady-three-officials-dissent-favoring-a-hike",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/economy/fed-holds-rates-steady-as-3-policymakers-dissent-in-favor-of-hike",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-29/fed-holds-rates-steady-three-officials-dissent-favoring-a-hike",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/economy/fed-holds-rates-steady-as-3-policymakers-dissent-in-favor-of-hike",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/07/29/fed-holds-interest-rates-steady-warsh-second-meeting/",
+      },
+    ],
+    selectionRationale:
+      "A genuinely split Fed board, with the largest hawkish dissent in nearly a decade, is a global signal for dollar funding costs and every central bank watching the September decision (PRD §5-1/§5-2).",
+  },
+  {
+    slug: "2026-08-06-eu-china-trade-surplus-standoff",
+    category: "Macro",
+    title: "EU-China trade standoff hardens as Beijing's surplus hits a record ahead of October deadline",
+    summary:
+      "China's goods trade surplus with the European Union has climbed to a record — roughly €360 billion for 2025, or about €1 billion a day — intensifying a standoff that EU and Chinese officials tried to defuse with a June framework agreement covering trade balancing, export controls, intellectual property and WTO reform. Brussels has set an October deadline for 'tangible results' on rebalancing, but recent signals from Beijing suggest little appetite for major concessions given its structural leverage. The dispute adds a second major trade front for the global economy this year, alongside the ongoing US-China relationship, with direct implications for European manufacturing and any EU import measures that follow if the October deadline passes without progress.",
+    detail: [
+      "China's goods trade surplus with the European Union reached a record roughly €360 billion in 2025 — about €1 billion every day — up sharply from €182 billion just five years earlier, cementing trade imbalance as one of the most politically charged issues in EU-China relations.",
+      "EU Trade Commissioner Maroš Šefčovič and Chinese Commerce Minister Wang Wentao met in late June to agree a framework meant to address the imbalance, committing both sides to four workstreams: trade and investment balancing, export controls, intellectual property rights, and reform of the World Trade Organization, alongside a new joint mechanism to monitor trade flows.",
+      "Brussels attached an October deadline for 'tangible results' from that framework, but subsequent signals from Beijing have left little room for optimism that major concessions are coming, given the structural and leverage imbalances that favor China in areas like rare-earth exports and industrial capacity.",
+      "The dispute is playing out against a backdrop of European anxiety over deindustrialization, as European officials warn that entire sectors of the continent's economy risk being undercut by state-subsidized Chinese imports — a dynamic some have likened to an intensified rerun of the 'China shock' that hit US manufacturing in the 2000s.",
+      "If the October deadline passes without meaningful rebalancing, the EU has signaled it could move toward tariff or import-restriction measures against China, which would open a second major front in global trade policy this year alongside the existing US-China trade relationship and add fresh uncertainty to global supply chains already adjusting to tariff regimes elsewhere.",
+      "The standoff is a reminder that this year's trade tensions are not confined to the United States: multiple major economies are now simultaneously renegotiating their trade relationships with China, with implications for manufacturers, exporters and consumers well beyond the parties directly involved.",
+    ],
+    keywords: [
+      "EU-China Trade",
+      "Trade Surplus",
+      "Tariffs",
+      "European Union",
+      "Deindustrialization",
+      "Trade Policy",
+      "Rare Earths",
+    ],
+    date: "2026-08-06",
+    sources: [
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/news/china/diplomacy/article/3358808/eu-sets-october-deadline-tangible-results-china-imbalances-after-key-trade-talks",
+      },
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-14/china-s-trade-surplus-with-eu-hits-record-as-tensions-intensify",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-14/china-s-trade-surplus-with-eu-hits-record-as-tensions-intensify",
+      },
+    ],
+    selectionRationale:
+      "A second major global trade front opening alongside US-China tensions, with a record imbalance and a hard October deadline that could trigger new EU trade measures (PRD §5-1/§5-2).",
+  },
+  {
+    slug: "2026-08-06-oil-prices-swing-hormuz-deal-hopes",
+    category: "Markets",
+    title: "Oil prices swing sharply as traders price in a possible Hormuz reopening deal",
+    summary:
+      "Crude oil has been unusually volatile over the past two weeks, falling as much as 11% at one point on growing optimism that Iran and Oman are close to a Strait of Hormuz shipping agreement, before stabilizing as talks progressed through August 5. Brent and WTI remain well below the highs reached during the worst of the shipping disruptions earlier in the war, but prices continue to whip on every headline out of the negotiations. The moves illustrate how concentrated oil-market risk has become around a single geopolitical variable, with direct knock-on effects for inflation expectations and central-bank policy worldwide.",
+    detail: [
+      "Oil prices have swung sharply through late July and early August as traders repeatedly repriced the odds of a Strait of Hormuz shipping agreement between Iran and Oman, with crude falling as much as 11% in a single week on optimism a deal was close, before paring some of that move as talks continued without a final signed agreement.",
+      "The volatility reflects how much of the current oil-price risk premium is tied specifically to Hormuz-related supply disruption from the Iran war, rather than to underlying global demand: any credible sign that shipping through the strait will normalize has been enough to trigger outsized single-session moves.",
+      "US Treasury Secretary Scott Bessent's comment on August 5 that a broader deal could arrive within roughly two days added further momentum to the recent decline in prices, even as the agreement remains contingent on the US lifting its blockade of Iranian ports.",
+      "Because roughly a fifth of global oil and LNG trade transits Hormuz, the price swings have been closely watched well beyond energy-trading desks — they feed directly into inflation forecasts from the IMF and World Bank, both of which cited energy costs from the conflict as a key downside risk for 2026 global growth.",
+      "The oil market's reaction has also become a proxy indicator for the Federal Reserve's next move: falling energy prices ease one of the two inflationary pressures that drove three regional Fed presidents to dissent in favor of a rate hike at the July meeting, making the Hormuz talks as relevant to bond traders as to oil traders.",
+      "Even with recent declines, prices remain sensitive to reversal — a breakdown in the Iran-Oman talks, a dispute over Iran's proposed transit fees, or renewed hostilities could send crude sharply higher again, underscoring the fragility of the current calm.",
+    ],
+    keywords: [
+      "Oil Prices",
+      "Strait of Hormuz",
+      "Crude Oil",
+      "Commodities",
+      "Iran War",
+      "Energy Markets",
+      "Brent Crude",
+    ],
+    date: "2026-08-06",
+    sources: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-05/latest-oil-market-news-and-analysis-for-aug-6",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/news/article/3354707/crude-oil-drops-us-inches-towards-iran-deal-reopen-strait-hormuz",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-05/latest-oil-market-news-and-analysis-for-aug-6",
+      },
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/news/article/3354707/crude-oil-drops-us-inches-towards-iran-deal-reopen-strait-hormuz",
+      },
+    ],
+    selectionRationale:
+      "Oil is the primary transmission channel from the Hormuz/Iran situation into global inflation and monetary policy, and today's price action is a direct market read on that risk (PRD §5-1/§5-2).",
+  },
+  {
+    slug: "2026-08-06-global-stocks-record-highs-hormuz-optimism",
+    category: "Markets",
+    title: "Global stocks hold near record highs as Hormuz optimism and AI earnings drive cross-currents",
+    summary:
+      "US, Japanese and Australian equity benchmarks have all traded near or at record highs this week, lifted by growing hopes for a Strait of Hormuz shipping resolution alongside a heavy slate of AI-linked corporate earnings. The Dow added roughly 0.9% on August 5 alone, while Japan's Nikkei and Australian shares touched all-time highs on the same catalyst. Beneath the index-level gains, earnings from AI-exposed companies have produced sharp divergence between winners and losers, showing how concentrated this rally has become around a small number of macro and technology-specific themes.",
+    detail: [
+      "US equity benchmarks held near record territory on August 5, with the Dow Jones Industrial Average adding roughly 473 points, or about 0.9%, as investors weighed growing optimism around a possible Strait of Hormuz shipping agreement between Iran and Oman against a dense week of corporate earnings.",
+      "The rally was not confined to US markets: Japan's Nikkei 225 closed at an all-time high the same week, and Australian shares also touched record levels, with strategists in both markets attributing the moves directly to easing bets tied to the Hormuz talks rather than to domestic economic data.",
+      "Beneath the headline index gains, earnings from AI-linked companies drove sharp cross-currents this week, with capital-spending announcements and demand signals from chipmakers, hyperscalers and device makers producing some of the largest single-day stock moves of the earnings season so far.",
+      "The synchronized nature of the rally — spanning US, Japanese and Australian markets on the same geopolitical catalyst — illustrates how concentrated global market risk has become around a single flashpoint this year, echoing the same dynamic visible in oil and gold prices.",
+      "Investors are treating the coming days as pivotal: confirmation of a Hormuz agreement could extend the rally further by removing a persistent tail risk from markets, while a breakdown in talks could quickly reverse this week's gains given how much of the move has been priced on optimism rather than a signed deal.",
+      "The AI-earnings cross-currents add a second, more company-specific layer of risk on top of the geopolitical one, meaning the next leg for global equities likely depends on both fronts resolving in investors' favor simultaneously.",
+    ],
+    keywords: [
+      "Stock Market",
+      "Strait of Hormuz",
+      "Nikkei 225",
+      "Dow Jones",
+      "AI Earnings",
+      "Equities",
+      "Record Highs",
+    ],
+    date: "2026-08-06",
+    sources: [
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/08/05/stocks-markets-rates-oil-prices/31e2dafc-908b-11f1-9fdc-0a725c989a7b_story.html",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/markets/japan-stocks-close-at-all-time-high-as-investors-bet-on-iran-deal",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/08/05/stocks-markets-rates-oil-prices/31e2dafc-908b-11f1-9fdc-0a725c989a7b_story.html",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/markets/japan-stocks-close-at-all-time-high-as-investors-bet-on-iran-deal",
+      },
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-05/australian-stocks-rise-to-record-on-iran-hopes-economic-bets",
+      },
+    ],
+    selectionRationale:
+      "A globally synchronized equity rally across three continents tied to a single geopolitical catalyst, with real portfolio-level implications, not routine daily noise (PRD §5-1/§5-2).",
+  },
+  {
+    slug: "2026-08-06-yen-rallies-us-japan-intervention",
+    category: "Markets",
+    title: "Yen rallies off 40-year low after rare coordinated US-Japan intervention",
+    summary:
+      "The Japanese yen has rebounded more than 1% against both the dollar and the euro after the US Treasury and Japan carried out coordinated intervention in late July and early August, pulling the currency back from a 40-year low near 163 per dollar to around 149-157. Reports indicate the US funded part of its yen purchases using euros rather than dollars, a step meant to support the yen without visibly undermining Washington's own strong-dollar posture. Bank of America now forecasts the yen strengthening a further 6% by year-end, underscoring how rare and consequential this joint action has been.",
+    detail: [
+      "The US Treasury and Japan's Ministry of Finance carried out coordinated intervention in currency markets through late July and early August, buying yen to arrest its slide after the currency touched a 40-year low of roughly 163 per dollar, an unusually rare instance of the two governments acting together in FX markets.",
+      "The intervention pulled the yen back to a range of roughly 149 to 157 per dollar, with the currency gaining more than 1% against both the dollar and the euro in the aftermath, as traders recalibrated expectations for how much further authorities are willing to act to prevent a disorderly depreciation.",
+      "Notably, reporting indicates the US Treasury funded a portion of its yen purchases using euros rather than dollars — a structure strategists say was designed to support the yen without directly signaling a shift away from Washington's stated preference for a strong dollar, a dynamic one Bloomberg analysis described as a distinctive feature of the current administration's approach to currency policy.",
+      "Bank of America has forecast the yen strengthening by a further 6% by the end of 2026, a notably bullish call that reflects growing conviction among strategists that authorities will continue to defend the currency against renewed weakness rather than tolerate a return toward the 160s.",
+      "A weak yen had been a double-edged sword for the Japanese economy this year: it boosted the yen-denominated profits of major exporters like Toyota, but also fed imported inflation and became a source of friction in Japan's trade relationship with Washington, making the currency's stabilization a priority for policymakers on both sides.",
+      "Coordinated intervention of this kind is rare enough that its use signals real concern among both governments about disorderly currency moves, with knock-on effects for Japanese government bond yields, carry-trade positioning, and capital flows across Asian currency markets more broadly.",
+    ],
+    keywords: [
+      "Japanese Yen",
+      "Currency Intervention",
+      "US Treasury",
+      "Foreign Exchange",
+      "Bank of America",
+      "Dollar",
+      "Carry Trade",
+    ],
+    date: "2026-08-06",
+    sources: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-05/bank-of-america-sees-yen-jumping-6-by-end-of-2026",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/08/02/yen-dollar-currency-trump-economy/e8a03168-8edd-11f1-9fdc-0a725c989a7b_story.html",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-05/bank-of-america-sees-yen-jumping-6-by-end-of-2026",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/business/2026/08/02/yen-dollar-currency-trump-economy/e8a03168-8edd-11f1-9fdc-0a725c989a7b_story.html",
+      },
+    ],
+    selectionRationale:
+      "A rare coordinated G-2 currency intervention with direct effects on Japanese bond yields, carry trades and global capital flows — a structural FX-policy event, not routine daily movement (PRD §5-1/§5-2).",
+  },
+  {
+    slug: "2026-08-06-google-deepmind-hassabis-jeff-dean-shakeup",
+    category: "Business",
+    title: "Google DeepMind leadership shakeup: Hassabis steps back, Jeff Dean departs to start his own company",
+    summary:
+      "Alphabet announced on August 5 that Demis Hassabis is moving from CEO of Google DeepMind to Chairman, taking on a new Alphabet Chief Scientist role, while ceding day-to-day control of the AI lab to Koray Kavukcuoglu. Separately, longtime Google AI leader Jeff Dean is departing to start his own company, in which Google will invest. The reshuffle consolidates AI decision-making at a moment when Google faces growing pressure from Anthropic and OpenAI, with its flagship Gemini update running behind its originally planned June launch. The changes mark one of the most significant leadership shifts among the handful of companies at the frontier of AI development this year.",
+    detail: [
+      "Alphabet announced on August 5 that Demis Hassabis, the co-founder and chief executive of Google DeepMind, is moving into a Chairman role at the AI lab while taking on a newly created position as Alphabet's Chief Scientist, with day-to-day leadership of DeepMind passing to Koray Kavukcuoglu.",
+      "In a separate but related move, Jeff Dean — one of Google's longest-serving and most prominent AI leaders — is leaving the company to start his own venture, which Google has agreed to invest in, a structure that keeps some financial tie between Dean's new company and his former employer even as he departs day-to-day operations.",
+      "The reshuffle consolidates AI leadership more tightly around a smaller group of executives at a moment when Google is under visible competitive pressure: the company's flagship Gemini model update has run behind its originally planned June 2026 launch timeline, feeding concerns that Google is losing ground to Anthropic and OpenAI in the race to ship frontier AI systems.",
+      "Hassabis's shift to a chairman-plus-chief-scientist role is notable because it removes him from day-to-day operational control of DeepMind for the first time since Google merged its AI research efforts under his leadership, even as he retains a senior strategic voice across Alphabet's broader AI efforts.",
+      "The changes come amid a broader wave of leadership movement across the AI industry this year, as the handful of labs at the frontier of the technology compete not only on model capability but on retaining and organizing the small pool of researchers and executives capable of leading that work.",
+      "Because Google, Anthropic and OpenAI are widely viewed as the three organizations currently setting the pace of frontier AI development, a leadership shake-up at any one of them has implications well beyond the company itself — for talent flows, model release timing, and the broader AI capital-spending cycle that is already reshaping global technology investment.",
+    ],
+    keywords: [
+      "Google DeepMind",
+      "Demis Hassabis",
+      "Jeff Dean",
+      "Alphabet",
+      "Artificial Intelligence",
+      "Gemini",
+      "Tech Leadership",
+    ],
+    date: "2026-08-06",
+    sources: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-05/google-deepmind-boss-hassabis-moves-to-chair-role-in-shakeup",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/technology/2026/08/05/google-top-ai-leader-demis-hassabis-steps-aside-major-shakeup/",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-05/google-deepmind-boss-hassabis-moves-to-chair-role-in-shakeup",
+      },
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/technology/2026/08/05/google-top-ai-leader-demis-hassabis-steps-aside-major-shakeup/",
+      },
+    ],
+    selectionRationale:
+      "A leadership shake-up at one of the three frontier AI labs signals real competitive pressure in the AI race, with industry-wide implications for talent and the AI capex cycle (PRD §5-1/§5-2).",
+  },
+  {
+    slug: "2026-08-06-tsmc-hyperscaler-ai-capex-ramp",
+    category: "Business",
+    title: "TSMC lifts 2026 capex guidance again as hyperscaler AI spending keeps accelerating",
+    summary:
+      "TSMC has raised its 2026 capital-expenditure guidance to between $60 billion and $64 billion, citing sustained demand for AI chips, while consensus estimates for combined 2026 capex among US hyperscalers have been revised roughly 30% higher over the past six months to above $700 billion. The upward revisions on both the supply and demand sides point to a structural reallocation of global capital toward AI infrastructure that shows no sign of slowing. The scale of spending is already reshaping the broader semiconductor supply chain, from equipment makers to energy providers powering the data centers being built.",
+    detail: [
+      "TSMC raised its 2026 capital-expenditure guidance to a range of $60 billion to $64 billion, an increase of at least $4 billion from its prior estimate, citing sustained demand for advanced chips used in AI training and inference hardware.",
+      "The upward revision on the supply side has been matched by an even larger shift on the demand side: consensus estimates for combined 2026 capital spending among major US hyperscalers have been revised roughly 30% higher over the past six months, now standing above $700 billion.",
+      "The scale of these upward revisions — both from the world's largest contract chipmaker and from the companies buying its output — points to a structural reallocation of global capital toward AI infrastructure that has continued to accelerate rather than plateau, even as some investors have periodically questioned whether AI capital spending has outrun near-term returns.",
+      "The ramp has already produced visible strain elsewhere in the technology supply chain: a related global memory-chip shortage, driven by the same AI data-center buildout, has pushed DRAM prices up roughly sixfold and is expected to shrink global smartphone shipments by as much as 200 million units this year, illustrating how capital concentrated in one part of the AI stack is distorting adjacent markets.",
+      "Companies further down the supply chain — semiconductor equipment makers, power-infrastructure providers, and specialty materials suppliers — are all seeing demand shaped by the pace of this capex cycle, making TSMC's guidance one of the most closely watched single data points for gauging the durability of the broader AI investment boom.",
+      "With both chipmakers and hyperscalers revising spending higher in the same period, the current data suggests the AI capital-spending supercycle remains in an accelerating phase rather than a maturing one, a trend with implications for global capital markets, energy demand, and semiconductor supply chains well into 2027.",
+    ],
+    keywords: [
+      "TSMC",
+      "AI Capex",
+      "Semiconductors",
+      "Hyperscalers",
+      "Data Centers",
+      "Chip Supply Chain",
+      "Capital Spending",
+    ],
+    date: "2026-08-06",
+    sources: [
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/tech/big-tech/article/3350346/tsmc-targets-over-30-revenue-surge-2026-ramps-capex-amid-booming-ai-demand",
+      },
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-16/tsmc-beats-lofty-estimates-in-latest-sign-of-sustained-ai-demand",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "South China Morning Post",
+        url: "https://www.scmp.com/tech/big-tech/article/3350346/tsmc-targets-over-30-revenue-surge-2026-ramps-capex-amid-booming-ai-demand",
+      },
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-07-16/tsmc-beats-lofty-estimates-in-latest-sign-of-sustained-ai-demand",
+      },
+    ],
+    selectionRationale:
+      "A structural, industry-wide reallocation of global capital toward AI infrastructure spanning chipmakers and hyperscalers alike, not a single-company data point (PRD §5-1/§5-2).",
+  },
+  {
+    slug: "2026-08-06-toyota-profit-outlook-weak-yen-tariffs",
+    category: "Business",
+    title: "Toyota raises profit outlook and unveils $6.3 billion buyback as weak yen offsets tariffs",
+    summary:
+      "Toyota lifted its full-year operating profit outlook by more than 10% to ¥3.4 trillion and unveiled a ¥1 trillion ($6.3 billion) share buyback, as a weaker yen and resilient hybrid vehicle demand helped offset the continued drag from US tariffs, elevated oil prices and supply disruptions. Quarterly net profit rose more than 75% from a year earlier. The results illustrate how the same currency and geopolitical forces roiling global markets this week — the weak yen, tariff policy, and Middle East-driven oil costs — are flowing directly through to corporate earnings in one of the world's largest industries.",
+    detail: [
+      "Toyota raised its full-year operating profit outlook by more than 10% to ¥3.4 trillion for the fiscal year through March 2027 and announced a ¥1 trillion ($6.3 billion) share buyback, as resilient global demand for hybrid vehicles and a weaker yen helped the automaker absorb rising costs from US tariffs, elevated oil prices and ongoing supply-chain disruptions.",
+      "Net profit for the April-June quarter rose more than 75% from the same period a year earlier, beating market expectations, even as the company continues to face a multibillion-dollar annual hit from US auto tariffs that has turned its North American operations into a source of strain rather than pure profit this fiscal year.",
+      "The weak yen has been a direct offset: a depreciated currency inflates the yen value of Toyota's overseas earnings, providing what analysts have described as a significant earnings respite from tariffs and war-linked cost pressures, even as the same currency weakness has fed imported inflation elsewhere in the Japanese economy.",
+      "Toyota's results echo a pattern across Japan's major automakers this year, with the sector as a whole absorbing a combined multibillion-dollar hit to operating income from US tariffs even as several manufacturers, including Toyota and Honda, have posted stronger-than-expected quarterly profits on the back of strong vehicle sales and currency tailwinds.",
+      "The results land in the same week that the US and Japan carried out coordinated intervention to prop up the yen after it hit a 40-year low — meaning Toyota's currency tailwind could narrow if that intervention succeeds in meaningfully strengthening the yen going forward, adding a layer of uncertainty to the company's own upgraded guidance.",
+      "As one of the world's largest automakers by revenue and vehicle volume, Toyota's results function as a bellwether for how the global auto industry is navigating the combination of US tariff policy, currency swings and elevated energy costs simultaneously, with implications for suppliers, competitors and consumers across multiple markets.",
+    ],
+    keywords: [
+      "Toyota",
+      "Tariffs",
+      "Japanese Yen",
+      "Automakers",
+      "Earnings",
+      "Share Buyback",
+      "Supply Chain",
+    ],
+    date: "2026-08-06",
+    sources: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-04/toyota-unveils-6-3-billion-buyback-raises-profit-outlook-earnings-auto",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/automobiles/toyota-revises-full-year-net-profit-forecast-upward-helped-by-weak-yen",
+      },
+    ],
+    crossCheck: [
+      {
+        outlet: "Bloomberg",
+        url: "https://www.bloomberg.com/news/articles/2026-08-04/toyota-unveils-6-3-billion-buyback-raises-profit-outlook-earnings-auto",
+      },
+      {
+        outlet: "Nikkei Asia",
+        url: "https://asia.nikkei.com/business/automobiles/toyota-revises-full-year-net-profit-forecast-upward-helped-by-weak-yen",
+      },
+    ],
+    selectionRationale:
+      "A bellwether global automaker's earnings directly showing how this week's currency, tariff and energy-price dynamics are flowing through to corporate results across a major industry (PRD §5-1/§5-2).",
+  },
 ];
 
 // Plan Ref: PLAN.md step 9 — runs at module-load time, so `next build` and
